@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC916A6229098BC500BB7814 /* Vista2.m in Sources */ = {isa = PBXBuildFile; fileRef = AC916A6129098BC500BB7814 /* Vista2.m */; };
+		AC916A6529098DEC00BB7814 /* Vista3.m in Sources */ = {isa = PBXBuildFile; fileRef = AC916A6429098DEC00BB7814 /* Vista3.m */; };
+		AC916A6829098DF800BB7814 /* Vista4.m in Sources */ = {isa = PBXBuildFile; fileRef = AC916A6729098DF800BB7814 /* Vista4.m */; };
+		AC95CE6F28FDB38E0028D52B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC95CE6E28FDB38E0028D52B /* AppDelegate.m */; };
+		AC95CE7128FDB38F0028D52B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC95CE7028FDB38F0028D52B /* Assets.xcassets */; };
+		AC95CE7428FDB38F0028D52B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC95CE7228FDB38F0028D52B /* MainMenu.xib */; };
+		AC95CE7628FDB38F0028D52B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC95CE7528FDB38F0028D52B /* main.m */; };
+		AC95CE8128FDB3900028D52B /* appGraficosOSX_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC95CE8028FDB3900028D52B /* appGraficosOSX_1Tests.m */; };
+		AC95CE8B28FDB3900028D52B /* appGraficosOSX_1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC95CE8A28FDB3900028D52B /* appGraficosOSX_1UITests.m */; };
+		AC95CE8D28FDB3900028D52B /* appGraficosOSX_1UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC95CE8C28FDB3900028D52B /* appGraficosOSX_1UITestsLaunchTests.m */; };
+		ACF4B2D128FDB46B00510283 /* Vista.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF4B2D028FDB46B00510283 /* Vista.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC95CE7D28FDB3900028D52B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC95CE6228FDB38E0028D52B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC95CE6928FDB38E0028D52B;
+			remoteInfo = appGraficosOSX_1;
+		};
+		AC95CE8728FDB3900028D52B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC95CE6228FDB38E0028D52B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC95CE6928FDB38E0028D52B;
+			remoteInfo = appGraficosOSX_1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC916A6029098BC500BB7814 /* Vista2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vista2.h; sourceTree = "<group>"; };
+		AC916A6129098BC500BB7814 /* Vista2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vista2.m; sourceTree = "<group>"; };
+		AC916A6329098DEC00BB7814 /* Vista3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vista3.h; sourceTree = "<group>"; };
+		AC916A6429098DEC00BB7814 /* Vista3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vista3.m; sourceTree = "<group>"; };
+		AC916A6629098DF800BB7814 /* Vista4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vista4.h; sourceTree = "<group>"; };
+		AC916A6729098DF800BB7814 /* Vista4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vista4.m; sourceTree = "<group>"; };
+		AC95CE6A28FDB38E0028D52B /* appGraficosOSX_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appGraficosOSX_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC95CE6D28FDB38E0028D52B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC95CE6E28FDB38E0028D52B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC95CE7028FDB38F0028D52B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC95CE7328FDB38F0028D52B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AC95CE7528FDB38F0028D52B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC95CE7728FDB38F0028D52B /* appGraficosOSX_1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = appGraficosOSX_1.entitlements; sourceTree = "<group>"; };
+		AC95CE7C28FDB3900028D52B /* appGraficosOSX_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appGraficosOSX_1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC95CE8028FDB3900028D52B /* appGraficosOSX_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appGraficosOSX_1Tests.m; sourceTree = "<group>"; };
+		AC95CE8628FDB3900028D52B /* appGraficosOSX_1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appGraficosOSX_1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC95CE8A28FDB3900028D52B /* appGraficosOSX_1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appGraficosOSX_1UITests.m; sourceTree = "<group>"; };
+		AC95CE8C28FDB3900028D52B /* appGraficosOSX_1UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appGraficosOSX_1UITestsLaunchTests.m; sourceTree = "<group>"; };
+		ACF4B2CF28FDB46B00510283 /* Vista.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vista.h; sourceTree = "<group>"; };
+		ACF4B2D028FDB46B00510283 /* Vista.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vista.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC95CE6728FDB38E0028D52B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC95CE7928FDB3900028D52B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC95CE8328FDB3900028D52B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC95CE6128FDB38E0028D52B = {
+			isa = PBXGroup;
+			children = (
+				AC95CE6C28FDB38E0028D52B /* appGraficosOSX_1 */,
+				AC95CE7F28FDB3900028D52B /* appGraficosOSX_1Tests */,
+				AC95CE8928FDB3900028D52B /* appGraficosOSX_1UITests */,
+				AC95CE6B28FDB38E0028D52B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC95CE6B28FDB38E0028D52B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC95CE6A28FDB38E0028D52B /* appGraficosOSX_1.app */,
+				AC95CE7C28FDB3900028D52B /* appGraficosOSX_1Tests.xctest */,
+				AC95CE8628FDB3900028D52B /* appGraficosOSX_1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC95CE6C28FDB38E0028D52B /* appGraficosOSX_1 */ = {
+			isa = PBXGroup;
+			children = (
+				AC95CE6D28FDB38E0028D52B /* AppDelegate.h */,
+				AC95CE6E28FDB38E0028D52B /* AppDelegate.m */,
+				AC95CE7028FDB38F0028D52B /* Assets.xcassets */,
+				AC95CE7228FDB38F0028D52B /* MainMenu.xib */,
+				AC95CE7528FDB38F0028D52B /* main.m */,
+				AC95CE7728FDB38F0028D52B /* appGraficosOSX_1.entitlements */,
+				ACF4B2CF28FDB46B00510283 /* Vista.h */,
+				ACF4B2D028FDB46B00510283 /* Vista.m */,
+				AC916A6029098BC500BB7814 /* Vista2.h */,
+				AC916A6129098BC500BB7814 /* Vista2.m */,
+				AC916A6329098DEC00BB7814 /* Vista3.h */,
+				AC916A6429098DEC00BB7814 /* Vista3.m */,
+				AC916A6629098DF800BB7814 /* Vista4.h */,
+				AC916A6729098DF800BB7814 /* Vista4.m */,
+			);
+			path = appGraficosOSX_1;
+			sourceTree = "<group>";
+		};
+		AC95CE7F28FDB3900028D52B /* appGraficosOSX_1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AC95CE8028FDB3900028D52B /* appGraficosOSX_1Tests.m */,
+			);
+			path = appGraficosOSX_1Tests;
+			sourceTree = "<group>";
+		};
+		AC95CE8928FDB3900028D52B /* appGraficosOSX_1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC95CE8A28FDB3900028D52B /* appGraficosOSX_1UITests.m */,
+				AC95CE8C28FDB3900028D52B /* appGraficosOSX_1UITestsLaunchTests.m */,
+			);
+			path = appGraficosOSX_1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC95CE6928FDB38E0028D52B /* appGraficosOSX_1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC95CE9028FDB3900028D52B /* Build configuration list for PBXNativeTarget "appGraficosOSX_1" */;
+			buildPhases = (
+				AC95CE6628FDB38E0028D52B /* Sources */,
+				AC95CE6728FDB38E0028D52B /* Frameworks */,
+				AC95CE6828FDB38E0028D52B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = appGraficosOSX_1;
+			productName = appGraficosOSX_1;
+			productReference = AC95CE6A28FDB38E0028D52B /* appGraficosOSX_1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC95CE7B28FDB3900028D52B /* appGraficosOSX_1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC95CE9328FDB3900028D52B /* Build configuration list for PBXNativeTarget "appGraficosOSX_1Tests" */;
+			buildPhases = (
+				AC95CE7828FDB3900028D52B /* Sources */,
+				AC95CE7928FDB3900028D52B /* Frameworks */,
+				AC95CE7A28FDB3900028D52B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC95CE7E28FDB3900028D52B /* PBXTargetDependency */,
+			);
+			name = appGraficosOSX_1Tests;
+			productName = appGraficosOSX_1Tests;
+			productReference = AC95CE7C28FDB3900028D52B /* appGraficosOSX_1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC95CE8528FDB3900028D52B /* appGraficosOSX_1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC95CE9628FDB3900028D52B /* Build configuration list for PBXNativeTarget "appGraficosOSX_1UITests" */;
+			buildPhases = (
+				AC95CE8228FDB3900028D52B /* Sources */,
+				AC95CE8328FDB3900028D52B /* Frameworks */,
+				AC95CE8428FDB3900028D52B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC95CE8828FDB3900028D52B /* PBXTargetDependency */,
+			);
+			name = appGraficosOSX_1UITests;
+			productName = appGraficosOSX_1UITests;
+			productReference = AC95CE8628FDB3900028D52B /* appGraficosOSX_1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC95CE6228FDB38E0028D52B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					AC95CE6928FDB38E0028D52B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					AC95CE7B28FDB3900028D52B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = AC95CE6928FDB38E0028D52B;
+					};
+					AC95CE8528FDB3900028D52B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = AC95CE6928FDB38E0028D52B;
+					};
+				};
+			};
+			buildConfigurationList = AC95CE6528FDB38E0028D52B /* Build configuration list for PBXProject "appGraficosOSX_1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC95CE6128FDB38E0028D52B;
+			productRefGroup = AC95CE6B28FDB38E0028D52B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC95CE6928FDB38E0028D52B /* appGraficosOSX_1 */,
+				AC95CE7B28FDB3900028D52B /* appGraficosOSX_1Tests */,
+				AC95CE8528FDB3900028D52B /* appGraficosOSX_1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC95CE6828FDB38E0028D52B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC95CE7128FDB38F0028D52B /* Assets.xcassets in Resources */,
+				AC95CE7428FDB38F0028D52B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC95CE7A28FDB3900028D52B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC95CE8428FDB3900028D52B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC95CE6628FDB38E0028D52B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC916A6229098BC500BB7814 /* Vista2.m in Sources */,
+				AC916A6529098DEC00BB7814 /* Vista3.m in Sources */,
+				AC916A6829098DF800BB7814 /* Vista4.m in Sources */,
+				ACF4B2D128FDB46B00510283 /* Vista.m in Sources */,
+				AC95CE7628FDB38F0028D52B /* main.m in Sources */,
+				AC95CE6F28FDB38E0028D52B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC95CE7828FDB3900028D52B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC95CE8128FDB3900028D52B /* appGraficosOSX_1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC95CE8228FDB3900028D52B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC95CE8B28FDB3900028D52B /* appGraficosOSX_1UITests.m in Sources */,
+				AC95CE8D28FDB3900028D52B /* appGraficosOSX_1UITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC95CE7E28FDB3900028D52B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC95CE6928FDB38E0028D52B /* appGraficosOSX_1 */;
+			targetProxy = AC95CE7D28FDB3900028D52B /* PBXContainerItemProxy */;
+		};
+		AC95CE8828FDB3900028D52B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC95CE6928FDB38E0028D52B /* appGraficosOSX_1 */;
+			targetProxy = AC95CE8728FDB3900028D52B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC95CE7228FDB38F0028D52B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC95CE7328FDB38F0028D52B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC95CE8E28FDB3900028D52B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AC95CE8F28FDB3900028D52B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AC95CE9128FDB3900028D52B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = appGraficosOSX_1/appGraficosOSX_1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RETBOT.appGraficosOSX-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		AC95CE9228FDB3900028D52B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = appGraficosOSX_1/appGraficosOSX_1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RETBOT.appGraficosOSX-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		AC95CE9428FDB3900028D52B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RETBOT.appGraficosOSX-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appGraficosOSX_1.app/Contents/MacOS/appGraficosOSX_1";
+			};
+			name = Debug;
+		};
+		AC95CE9528FDB3900028D52B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RETBOT.appGraficosOSX-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appGraficosOSX_1.app/Contents/MacOS/appGraficosOSX_1";
+			};
+			name = Release;
+		};
+		AC95CE9728FDB3900028D52B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RETBOT.appGraficosOSX-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = appGraficosOSX_1;
+			};
+			name = Debug;
+		};
+		AC95CE9828FDB3900028D52B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RETBOT.appGraficosOSX-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = appGraficosOSX_1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC95CE6528FDB38E0028D52B /* Build configuration list for PBXProject "appGraficosOSX_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC95CE8E28FDB3900028D52B /* Debug */,
+				AC95CE8F28FDB3900028D52B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC95CE9028FDB3900028D52B /* Build configuration list for PBXNativeTarget "appGraficosOSX_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC95CE9128FDB3900028D52B /* Debug */,
+				AC95CE9228FDB3900028D52B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC95CE9328FDB3900028D52B /* Build configuration list for PBXNativeTarget "appGraficosOSX_1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC95CE9428FDB3900028D52B /* Debug */,
+				AC95CE9528FDB3900028D52B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC95CE9628FDB3900028D52B /* Build configuration list for PBXNativeTarget "appGraficosOSX_1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC95CE9728FDB3900028D52B /* Debug */,
+				AC95CE9828FDB3900028D52B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC95CE6228FDB38E0028D52B /* Project object */;
+}

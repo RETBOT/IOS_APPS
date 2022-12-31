@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RETBOT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UN4-Uq-k80">
+                                <rect key="frame" x="28" y="276" width="366" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OET-vR-xIW">
+                                <rect key="frame" x="206" y="197" width="117" height="30"/>
+                                <state key="normal" title="Cant Mayusculas"/>
+                                <connections>
+                                    <action selector="CantMayusculas:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q3Q-Q5-09u"/>
+                                    <action selector="btnCantMayusculas:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mVM-C2-MZ2"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wp6-ty-N3V">
+                                <rect key="frame" x="117" y="469" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="TU NOMBRE" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AOJ-0h-Htr">
+                                <rect key="frame" x="28" y="71" width="366" height="34"/>
+                                <attributedString key="attributedText"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="btnMostrarTeclado:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="YRA-Ff-ygG"/>
+                                </connections>
+                            </textField>
+                            <button toolTip="PRESIONAME" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8qo-My-XtT">
+                                <rect key="frame" x="179" y="125" width="56" height="30"/>
+                                <state key="normal" title="Saludar "/>
+                                <connections>
+                                    <action selector="btnSaludar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="45H-ke-0j2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Dh-Iq-6O4">
+                                <rect key="frame" x="91" y="197" width="95" height="30"/>
+                                <state key="normal" title="A mayusculas"/>
+                                <connections>
+                                    <action selector="btnMayuscukas:" destination="BYZ-38-t0r" eventType="touchUpInside" id="khX-RO-vno"/>
+                                    <action selector="btnMayuscula:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rj2-dF-EDN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0Dh-Iq-6O4" secondAttribute="bottom" constant="635" id="759-uW-OFg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AOJ-0h-Htr" secondAttribute="trailing" constant="20" id="AB1-WO-ueH"/>
+                            <constraint firstItem="8qo-My-XtT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="179" id="AcD-EZ-pWL"/>
+                            <constraint firstItem="8qo-My-XtT" firstAttribute="top" secondItem="AOJ-0h-Htr" secondAttribute="bottom" constant="20" id="BSY-cj-zcp"/>
+                            <constraint firstItem="0Dh-Iq-6O4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="153" id="D7w-fW-gGN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OET-vR-xIW" secondAttribute="trailing" constant="91" id="D9L-Rn-ldx"/>
+                            <constraint firstItem="OET-vR-xIW" firstAttribute="leading" secondItem="0Dh-Iq-6O4" secondAttribute="trailing" constant="20" id="Fnj-G3-izp"/>
+                            <constraint firstItem="8qo-My-XtT" firstAttribute="leading" secondItem="0Dh-Iq-6O4" secondAttribute="trailing" constant="-7" id="LGH-N2-BfU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UN4-Uq-k80" secondAttribute="bottom" constant="565.5" id="OSh-Lq-JOV"/>
+                            <constraint firstItem="AOJ-0h-Htr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="27" id="RtM-32-yrl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8qo-My-XtT" secondAttribute="trailing" constant="179" id="V77-1L-9aB"/>
+                            <constraint firstItem="OET-vR-xIW" firstAttribute="leading" secondItem="8qo-My-XtT" secondAttribute="trailing" constant="-29" id="VaL-WF-91b"/>
+                            <constraint firstItem="OET-vR-xIW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="206" id="WmZ-2u-blR"/>
+                            <constraint firstItem="UN4-Uq-k80" firstAttribute="top" secondItem="OET-vR-xIW" secondAttribute="bottom" constant="49" id="dgd-l8-QPD"/>
+                            <constraint firstItem="0Dh-Iq-6O4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="91" id="eVH-1S-gv9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UN4-Uq-k80" secondAttribute="trailing" constant="20" id="m2e-lZ-zza"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0Dh-Iq-6O4" secondAttribute="trailing" constant="228" id="tYU-gW-ZRf"/>
+                            <constraint firstItem="AOJ-0h-Htr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="ut2-zv-clM"/>
+                            <constraint firstItem="UN4-Uq-k80" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="zH7-f2-PgD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="OET-vR-xIW" secondAttribute="bottom" constant="635" id="zNw-aP-7H6"/>
+                            <constraint firstItem="OET-vR-xIW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="153" id="zfh-o0-xrT"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label1" destination="UN4-Uq-k80" id="ZkV-qx-mnb"/>
+                        <outlet property="texto1" destination="AOJ-0h-Htr" id="U0I-jB-Z6m"/>
+                        <outlet property="texto2" destination="wp6-ty-N3V" id="SBd-9q-5nT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28.985507246376812" y="83.705357142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC4D8C2F28C6532F0006600F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4D8C2E28C6532F0006600F /* AppDelegate.m */; };
+		AC4D8C3128C653310006600F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4D8C3028C653310006600F /* Assets.xcassets */; };
+		AC4D8C3428C653310006600F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC4D8C3228C653310006600F /* MainMenu.xib */; };
+		AC4D8C3628C653310006600F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4D8C3528C653310006600F /* main.m */; };
+		AC4D8C4128C653320006600F /* appMatematicasCocoaOSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4D8C4028C653320006600F /* appMatematicasCocoaOSXTests.m */; };
+		AC4D8C4B28C653320006600F /* appMatematicasCocoaOSXUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4D8C4A28C653320006600F /* appMatematicasCocoaOSXUITests.m */; };
+		AC4D8C4D28C653320006600F /* appMatematicasCocoaOSXUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4D8C4C28C653320006600F /* appMatematicasCocoaOSXUITestsLaunchTests.m */; };
+		AC4D8C5B28C659090006600F /* MatematicasInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4D8C5A28C659090006600F /* MatematicasInterface.m */; };
+		AC9C8AE228CF89EF0088AC02 /* Matematicas.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9C8AE028CF89EF0088AC02 /* Matematicas.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC4D8C3D28C653320006600F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC4D8C2228C6532F0006600F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC4D8C2928C6532F0006600F;
+			remoteInfo = appMatematicasCocoaOSX;
+		};
+		AC4D8C4728C653320006600F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC4D8C2228C6532F0006600F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC4D8C2928C6532F0006600F;
+			remoteInfo = appMatematicasCocoaOSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC4D8C2A28C6532F0006600F /* appMatematicasCocoaOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appMatematicasCocoaOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4D8C2D28C6532F0006600F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC4D8C2E28C6532F0006600F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC4D8C3028C653310006600F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC4D8C3328C653310006600F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AC4D8C3528C653310006600F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC4D8C3728C653310006600F /* appMatematicasCocoaOSX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = appMatematicasCocoaOSX.entitlements; sourceTree = "<group>"; };
+		AC4D8C3C28C653320006600F /* appMatematicasCocoaOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appMatematicasCocoaOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4D8C4028C653320006600F /* appMatematicasCocoaOSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appMatematicasCocoaOSXTests.m; sourceTree = "<group>"; };
+		AC4D8C4628C653320006600F /* appMatematicasCocoaOSXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appMatematicasCocoaOSXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4D8C4A28C653320006600F /* appMatematicasCocoaOSXUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appMatematicasCocoaOSXUITests.m; sourceTree = "<group>"; };
+		AC4D8C4C28C653320006600F /* appMatematicasCocoaOSXUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appMatematicasCocoaOSXUITestsLaunchTests.m; sourceTree = "<group>"; };
+		AC4D8C5928C659090006600F /* MatematicasInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatematicasInterface.h; sourceTree = "<group>"; };
+		AC4D8C5A28C659090006600F /* MatematicasInterface.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatematicasInterface.m; sourceTree = "<group>"; };
+		AC9C8AE028CF89EF0088AC02 /* Matematicas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Matematicas.m; path = appMatematicasCocoaOSX/Matematicas.m; sourceTree = "<group>"; };
+		AC9C8AE128CF89EF0088AC02 /* Matematicas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Matematicas.h; path = appMatematicasCocoaOSX/Matematicas.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC4D8C2728C6532F0006600F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4D8C3928C653320006600F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4D8C4328C653320006600F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC4D8C2128C6532F0006600F = {
+			isa = PBXGroup;
+			children = (
+				AC9C8AE128CF89EF0088AC02 /* Matematicas.h */,
+				AC9C8AE028CF89EF0088AC02 /* Matematicas.m */,
+				AC4D8C2C28C6532F0006600F /* appMatematicasCocoaOSX */,
+				AC4D8C3F28C653320006600F /* appMatematicasCocoaOSXTests */,
+				AC4D8C4928C653320006600F /* appMatematicasCocoaOSXUITests */,
+				AC4D8C2B28C6532F0006600F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC4D8C2B28C6532F0006600F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC4D8C2A28C6532F0006600F /* appMatematicasCocoaOSX.app */,
+				AC4D8C3C28C653320006600F /* appMatematicasCocoaOSXTests.xctest */,
+				AC4D8C4628C653320006600F /* appMatematicasCocoaOSXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC4D8C2C28C6532F0006600F /* appMatematicasCocoaOSX */ = {
+			isa = PBXGroup;
+			children = (
+				AC4D8C2D28C6532F0006600F /* AppDelegate.h */,
+				AC4D8C2E28C6532F0006600F /* AppDelegate.m */,
+				AC4D8C3028C653310006600F /* Assets.xcassets */,
+				AC4D8C3228C653310006600F /* MainMenu.xib */,
+				AC4D8C5928C659090006600F /* MatematicasInterface.h */,
+				AC4D8C5A28C659090006600F /* MatematicasInterface.m */,
+				AC4D8C3528C653310006600F /* main.m */,
+				AC4D8C3728C653310006600F /* appMatematicasCocoaOSX.entitlements */,
+			);
+			path = appMatematicasCocoaOSX;
+			sourceTree = "<group>";
+		};
+		AC4D8C3F28C653320006600F /* appMatematicasCocoaOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC4D8C4028C653320006600F /* appMatematicasCocoaOSXTests.m */,
+			);
+			path = appMatematicasCocoaOSXTests;
+			sourceTree = "<group>";
+		};
+		AC4D8C4928C653320006600F /* appMatematicasCocoaOSXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC4D8C4A28C653320006600F /* appMatematicasCocoaOSXUITests.m */,
+				AC4D8C4C28C653320006600F /* appMatematicasCocoaOSXUITestsLaunchTests.m */,
+			);
+			path = appMatematicasCocoaOSXUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC4D8C2928C6532F0006600F /* appMatematicasCocoaOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4D8C5028C653320006600F /* Build configuration list for PBXNativeTarget "appMatematicasCocoaOSX" */;
+			buildPhases = (
+				AC4D8C2628C6532F0006600F /* Sources */,
+				AC4D8C2728C6532F0006600F /* Frameworks */,
+				AC4D8C2828C6532F0006600F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = appMatematicasCocoaOSX;
+			productName = appMatematicasCocoaOSX;
+			productReference = AC4D8C2A28C6532F0006600F /* appMatematicasCocoaOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC4D8C3B28C653320006600F /* appMatematicasCocoaOSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4D8C5328C653320006600F /* Build configuration list for PBXNativeTarget "appMatematicasCocoaOSXTests" */;
+			buildPhases = (
+				AC4D8C3828C653320006600F /* Sources */,
+				AC4D8C3928C653320006600F /* Frameworks */,
+				AC4D8C3A28C653320006600F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC4D8C3E28C653320006600F /* PBXTargetDependency */,
+			);
+			name = appMatematicasCocoaOSXTests;
+			productName = appMatematicasCocoaOSXTests;
+			productReference = AC4D8C3C28C653320006600F /* appMatematicasCocoaOSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC4D8C4528C653320006600F /* appMatematicasCocoaOSXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4D8C5628C653320006600F /* Build configuration list for PBXNativeTarget "appMatematicasCocoaOSXUITests" */;
+			buildPhases = (
+				AC4D8C4228C653320006600F /* Sources */,
+				AC4D8C4328C653320006600F /* Frameworks */,
+				AC4D8C4428C653320006600F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC4D8C4828C653320006600F /* PBXTargetDependency */,
+			);
+			name = appMatematicasCocoaOSXUITests;
+			productName = appMatematicasCocoaOSXUITests;
+			productReference = AC4D8C4628C653320006600F /* appMatematicasCocoaOSXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC4D8C2228C6532F0006600F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					AC4D8C2928C6532F0006600F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					AC4D8C3B28C653320006600F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = AC4D8C2928C6532F0006600F;
+					};
+					AC4D8C4528C653320006600F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = AC4D8C2928C6532F0006600F;
+					};
+				};
+			};
+			buildConfigurationList = AC4D8C2528C6532F0006600F /* Build configuration list for PBXProject "appMatematicasCocoaOSX" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC4D8C2128C6532F0006600F;
+			productRefGroup = AC4D8C2B28C6532F0006600F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC4D8C2928C6532F0006600F /* appMatematicasCocoaOSX */,
+				AC4D8C3B28C653320006600F /* appMatematicasCocoaOSXTests */,
+				AC4D8C4528C653320006600F /* appMatematicasCocoaOSXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC4D8C2828C6532F0006600F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4D8C3128C653310006600F /* Assets.xcassets in Resources */,
+				AC4D8C3428C653310006600F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4D8C3A28C653320006600F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4D8C4428C653320006600F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC4D8C2628C6532F0006600F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4D8C3628C653310006600F /* main.m in Sources */,
+				AC9C8AE228CF89EF0088AC02 /* Matematicas.m in Sources */,
+				AC4D8C2F28C6532F0006600F /* AppDelegate.m in Sources */,
+				AC4D8C5B28C659090006600F /* MatematicasInterface.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4D8C3828C653320006600F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4D8C4128C653320006600F /* appMatematicasCocoaOSXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4D8C4228C653320006600F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4D8C4B28C653320006600F /* appMatematicasCocoaOSXUITests.m in Sources */,
+				AC4D8C4D28C653320006600F /* appMatematicasCocoaOSXUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC4D8C3E28C653320006600F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC4D8C2928C6532F0006600F /* appMatematicasCocoaOSX */;
+			targetProxy = AC4D8C3D28C653320006600F /* PBXContainerItemProxy */;
+		};
+		AC4D8C4828C653320006600F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC4D8C2928C6532F0006600F /* appMatematicasCocoaOSX */;
+			targetProxy = AC4D8C4728C653320006600F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC4D8C3228C653310006600F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC4D8C3328C653310006600F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC4D8C4E28C653320006600F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AC4D8C4F28C653320006600F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AC4D8C5128C653320006600F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = appMatematicasCocoaOSX/appMatematicasCocoaOSX.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RETBOT.appMatematicasCocoaOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		AC4D8C5228C653320006600F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = appMatematicasCocoaOSX/appMatematicasCocoaOSX.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RETBOT.appMatematicasCocoaOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		AC4D8C5428C653320006600F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RETBOT.appMatematicasCocoaOSXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appMatematicasCocoaOSX.app/Contents/MacOS/appMatematicasCocoaOSX";
+			};
+			name = Debug;
+		};
+		AC4D8C5528C653320006600F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RETBOT.appMatematicasCocoaOSXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appMatematicasCocoaOSX.app/Contents/MacOS/appMatematicasCocoaOSX";
+			};
+			name = Release;
+		};
+		AC4D8C5728C653320006600F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RETBOT.appMatematicasCocoaOSXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = appMatematicasCocoaOSX;
+			};
+			name = Debug;
+		};
+		AC4D8C5828C653320006600F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RETBOT.appMatematicasCocoaOSXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = appMatematicasCocoaOSX;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC4D8C2528C6532F0006600F /* Build configuration list for PBXProject "appMatematicasCocoaOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4D8C4E28C653320006600F /* Debug */,
+				AC4D8C4F28C653320006600F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4D8C5028C653320006600F /* Build configuration list for PBXNativeTarget "appMatematicasCocoaOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4D8C5128C653320006600F /* Debug */,
+				AC4D8C5228C653320006600F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4D8C5328C653320006600F /* Build configuration list for PBXNativeTarget "appMatematicasCocoaOSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4D8C5428C653320006600F /* Debug */,
+				AC4D8C5528C653320006600F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4D8C5628C653320006600F /* Build configuration list for PBXNativeTarget "appMatematicasCocoaOSXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4D8C5728C653320006600F /* Debug */,
+				AC4D8C5828C653320006600F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC4D8C2228C6532F0006600F /* Project object */;
+}

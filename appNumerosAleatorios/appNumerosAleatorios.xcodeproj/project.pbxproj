@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC8F313028D0D6670007DD1A /* NumerosAleatorios.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8F312F28D0D6670007DD1A /* NumerosAleatorios.m */; };
+		ACA7248728CF90090040DCA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA7248628CF90090040DCA1 /* AppDelegate.m */; };
+		ACA7248928CF900B0040DCA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA7248828CF900B0040DCA1 /* Assets.xcassets */; };
+		ACA7248C28CF900B0040DCA1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACA7248A28CF900B0040DCA1 /* MainMenu.xib */; };
+		ACA7248E28CF900B0040DCA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA7248D28CF900B0040DCA1 /* main.m */; };
+		ACA7249928CF900B0040DCA1 /* appNumerosAleatoriosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA7249828CF900B0040DCA1 /* appNumerosAleatoriosTests.m */; };
+		ACA724A328CF900B0040DCA1 /* appNumerosAleatoriosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA724A228CF900B0040DCA1 /* appNumerosAleatoriosUITests.m */; };
+		ACA724A528CF900B0040DCA1 /* appNumerosAleatoriosUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA724A428CF900B0040DCA1 /* appNumerosAleatoriosUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACA7249528CF900B0040DCA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACA7247A28CF90090040DCA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACA7248128CF90090040DCA1;
+			remoteInfo = appNumerosAleatorios;
+		};
+		ACA7249F28CF900B0040DCA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACA7247A28CF90090040DCA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACA7248128CF90090040DCA1;
+			remoteInfo = appNumerosAleatorios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC8F312E28D0D6670007DD1A /* NumerosAleatorios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumerosAleatorios.h; sourceTree = "<group>"; };
+		AC8F312F28D0D6670007DD1A /* NumerosAleatorios.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumerosAleatorios.m; sourceTree = "<group>"; };
+		ACA7248228CF90090040DCA1 /* appNumerosAleatorios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appNumerosAleatorios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA7248528CF90090040DCA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACA7248628CF90090040DCA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACA7248828CF900B0040DCA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACA7248B28CF900B0040DCA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ACA7248D28CF900B0040DCA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACA7248F28CF900B0040DCA1 /* appNumerosAleatorios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = appNumerosAleatorios.entitlements; sourceTree = "<group>"; };
+		ACA7249428CF900B0040DCA1 /* appNumerosAleatoriosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appNumerosAleatoriosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA7249828CF900B0040DCA1 /* appNumerosAleatoriosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appNumerosAleatoriosTests.m; sourceTree = "<group>"; };
+		ACA7249E28CF900B0040DCA1 /* appNumerosAleatoriosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appNumerosAleatoriosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA724A228CF900B0040DCA1 /* appNumerosAleatoriosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appNumerosAleatoriosUITests.m; sourceTree = "<group>"; };
+		ACA724A428CF900B0040DCA1 /* appNumerosAleatoriosUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appNumerosAleatoriosUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACA7247F28CF90090040DCA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA7249128CF900B0040DCA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA7249B28CF900B0040DCA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACA7247928CF90090040DCA1 = {
+			isa = PBXGroup;
+			children = (
+				ACA7248428CF90090040DCA1 /* appNumerosAleatorios */,
+				ACA7249728CF900B0040DCA1 /* appNumerosAleatoriosTests */,
+				ACA724A128CF900B0040DCA1 /* appNumerosAleatoriosUITests */,
+				ACA7248328CF90090040DCA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACA7248328CF90090040DCA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACA7248228CF90090040DCA1 /* appNumerosAleatorios.app */,
+				ACA7249428CF900B0040DCA1 /* appNumerosAleatoriosTests.xctest */,
+				ACA7249E28CF900B0040DCA1 /* appNumerosAleatoriosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACA7248428CF90090040DCA1 /* appNumerosAleatorios */ = {
+			isa = PBXGroup;
+			children = (
+				ACA7248528CF90090040DCA1 /* AppDelegate.h */,
+				ACA7248628CF90090040DCA1 /* AppDelegate.m */,
+				ACA7248828CF900B0040DCA1 /* Assets.xcassets */,
+				ACA7248A28CF900B0040DCA1 /* MainMenu.xib */,
+				ACA7248D28CF900B0040DCA1 /* main.m */,
+				ACA7248F28CF900B0040DCA1 /* appNumerosAleatorios.entitlements */,
+				AC8F312E28D0D6670007DD1A /* NumerosAleatorios.h */,
+				AC8F312F28D0D6670007DD1A /* NumerosAleatorios.m */,
+			);
+			path = appNumerosAleatorios;
+			sourceTree = "<group>";
+		};
+		ACA7249728CF900B0040DCA1 /* appNumerosAleatoriosTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACA7249828CF900B0040DCA1 /* appNumerosAleatoriosTests.m */,
+			);
+			path = appNumerosAleatoriosTests;
+			sourceTree = "<group>";
+		};
+		ACA724A128CF900B0040DCA1 /* appNumerosAleatoriosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACA724A228CF900B0040DCA1 /* appNumerosAleatoriosUITests.m */,
+				ACA724A428CF900B0040DCA1 /* appNumerosAleatoriosUITestsLaunchTests.m */,
+			);
+			path = appNumerosAleatoriosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACA7248128CF90090040DCA1 /* appNumerosAleatorios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA724A828CF900B0040DCA1 /* Build configuration list for PBXNativeTarget "appNumerosAleatorios" */;
+			buildPhases = (
+				ACA7247E28CF90090040DCA1 /* Sources */,
+				ACA7247F28CF90090040DCA1 /* Frameworks */,
+				ACA7248028CF90090040DCA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = appNumerosAleatorios;
+			productName = appNumerosAleatorios;
+			productReference = ACA7248228CF90090040DCA1 /* appNumerosAleatorios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACA7249328CF900B0040DCA1 /* appNumerosAleatoriosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA724AB28CF900B0040DCA1 /* Build configuration list for PBXNativeTarget "appNumerosAleatoriosTests" */;
+			buildPhases = (
+				ACA7249028CF900B0040DCA1 /* Sources */,
+				ACA7249128CF900B0040DCA1 /* Frameworks */,
+				ACA7249228CF900B0040DCA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACA7249628CF900B0040DCA1 /* PBXTargetDependency */,
+			);
+			name = appNumerosAleatoriosTests;
+			productName = appNumerosAleatoriosTests;
+			productReference = ACA7249428CF900B0040DCA1 /* appNumerosAleatoriosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACA7249D28CF900B0040DCA1 /* appNumerosAleatoriosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA724AE28CF900B0040DCA1 /* Build configuration list for PBXNativeTarget "appNumerosAleatoriosUITests" */;
+			buildPhases = (
+				ACA7249A28CF900B0040DCA1 /* Sources */,
+				ACA7249B28CF900B0040DCA1 /* Frameworks */,
+				ACA7249C28CF900B0040DCA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACA724A028CF900B0040DCA1 /* PBXTargetDependency */,
+			);
+			name = appNumerosAleatoriosUITests;
+			productName = appNumerosAleatoriosUITests;
+			productReference = ACA7249E28CF900B0040DCA1 /* appNumerosAleatoriosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACA7247A28CF90090040DCA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					ACA7248128CF90090040DCA1 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					ACA7249328CF900B0040DCA1 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = ACA7248128CF90090040DCA1;
+					};
+					ACA7249D28CF900B0040DCA1 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = ACA7248128CF90090040DCA1;
+					};
+				};
+			};
+			buildConfigurationList = ACA7247D28CF90090040DCA1 /* Build configuration list for PBXProject "appNumerosAleatorios" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACA7247928CF90090040DCA1;
+			productRefGroup = ACA7248328CF90090040DCA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACA7248128CF90090040DCA1 /* appNumerosAleatorios */,
+				ACA7249328CF900B0040DCA1 /* appNumerosAleatoriosTests */,
+				ACA7249D28CF900B0040DCA1 /* appNumerosAleatoriosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACA7248028CF90090040DCA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA7248928CF900B0040DCA1 /* Assets.xcassets in Resources */,
+				ACA7248C28CF900B0040DCA1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA7249228CF900B0040DCA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA7249C28CF900B0040DCA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACA7247E28CF90090040DCA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8F313028D0D6670007DD1A /* NumerosAleatorios.m in Sources */,
+				ACA7248E28CF900B0040DCA1 /* main.m in Sources */,
+				ACA7248728CF90090040DCA1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA7249028CF900B0040DCA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA7249928CF900B0040DCA1 /* appNumerosAleatoriosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA7249A28CF900B0040DCA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA724A328CF900B0040DCA1 /* appNumerosAleatoriosUITests.m in Sources */,
+				ACA724A528CF900B0040DCA1 /* appNumerosAleatoriosUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACA7249628CF900B0040DCA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACA7248128CF90090040DCA1 /* appNumerosAleatorios */;
+			targetProxy = ACA7249528CF900B0040DCA1 /* PBXContainerItemProxy */;
+		};
+		ACA724A028CF900B0040DCA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACA7248128CF90090040DCA1 /* appNumerosAleatorios */;
+			targetProxy = ACA7249F28CF900B0040DCA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACA7248A28CF900B0040DCA1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACA7248B28CF900B0040DCA1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACA724A628CF900B0040DCA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ACA724A728CF900B0040DCA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ACA724A928CF900B0040DCA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = appNumerosAleatorios/appNumerosAleatorios.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RETBOT.appNumerosAleatorios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		ACA724AA28CF900B0040DCA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = appNumerosAleatorios/appNumerosAleatorios.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RETBOT.appNumerosAleatorios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		ACA724AC28CF900B0040DCA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RETBOT.appNumerosAleatoriosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appNumerosAleatorios.app/Contents/MacOS/appNumerosAleatorios";
+			};
+			name = Debug;
+		};
+		ACA724AD28CF900B0040DCA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RETBOT.appNumerosAleatoriosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appNumerosAleatorios.app/Contents/MacOS/appNumerosAleatorios";
+			};
+			name = Release;
+		};
+		ACA724AF28CF900B0040DCA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RETBOT.appNumerosAleatoriosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = appNumerosAleatorios;
+			};
+			name = Debug;
+		};
+		ACA724B028CF900B0040DCA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RETBOT.appNumerosAleatoriosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = appNumerosAleatorios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACA7247D28CF90090040DCA1 /* Build configuration list for PBXProject "appNumerosAleatorios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA724A628CF900B0040DCA1 /* Debug */,
+				ACA724A728CF900B0040DCA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA724A828CF900B0040DCA1 /* Build configuration list for PBXNativeTarget "appNumerosAleatorios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA724A928CF900B0040DCA1 /* Debug */,
+				ACA724AA28CF900B0040DCA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA724AB28CF900B0040DCA1 /* Build configuration list for PBXNativeTarget "appNumerosAleatoriosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA724AC28CF900B0040DCA1 /* Debug */,
+				ACA724AD28CF900B0040DCA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA724AE28CF900B0040DCA1 /* Build configuration list for PBXNativeTarget "appNumerosAleatoriosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA724AF28CF900B0040DCA1 /* Debug */,
+				ACA724B028CF900B0040DCA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACA7247A28CF90090040DCA1 /* Project object */;
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>92236009773-15kmkkjtc4ma5u7vds934sjdpn0ved1m.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.92236009773-15kmkkjtc4ma5u7vds934sjdpn0ved1m</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBXBxaJm2ZREX4moCQVlbKMUc9jvJ4OZ1I</string>
+	<key>GCM_SENDER_ID</key>
+	<string>92236009773</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>RETBOT.appFireBaseSwiftUI</string>
+	<key>PROJECT_ID</key>
+	<string>tienda-retbot</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tienda-retbot.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:92236009773:ios:77f60e1d9cbe2e4b84c3a4</string>
+</dict>
+</plist>

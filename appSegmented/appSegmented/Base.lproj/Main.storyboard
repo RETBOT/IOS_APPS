@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="r4U-lT-0eX">
+                                <rect key="frame" x="11" y="77" width="383" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="3BM-sR-h3C"/>
+                                    <constraint firstAttribute="width" constant="383" id="akB-GJ-48d"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Carro"/>
+                                    <segment title="Moto"/>
+                                    <segment title="Bicicleta"/>
+                                    <segment title="Camioneta"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentControlValue:" destination="BYZ-38-t0r" eventType="valueChanged" id="fWt-Es-AWC"/>
+                                </connections>
+                            </segmentedControl>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RXa-qF-OLR">
+                                <rect key="frame" x="16" y="139" width="383" height="723"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="723" id="PkS-Ga-aKm"/>
+                                    <constraint firstAttribute="width" constant="383" id="tSs-U4-uKp"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="r4U-lT-0eX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="11" id="GsE-83-gGo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RXa-qF-OLR" secondAttribute="trailing" constant="15" id="JuL-TV-I9N"/>
+                            <constraint firstItem="RXa-qF-OLR" firstAttribute="top" secondItem="r4U-lT-0eX" secondAttribute="bottom" constant="31" id="U0Y-EX-Hk1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="RXa-qF-OLR" secondAttribute="bottom" id="cHJ-Z1-1cg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="r4U-lT-0eX" secondAttribute="trailing" constant="20" id="mLf-S1-IU1"/>
+                            <constraint firstItem="r4U-lT-0eX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="33" id="qR7-9B-bME"/>
+                            <constraint firstItem="RXa-qF-OLR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="sYX-sY-Hp2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imgsVehiculos" destination="RXa-qF-OLR" id="0cH-V2-DkP"/>
+                        <outlet property="segmentControl" destination="r4U-lT-0eX" id="Dh9-LJ-yaN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28.985507246376812" y="69.642857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

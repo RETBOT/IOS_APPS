@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="appSwiftConjuntosIOs" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Conjunto A: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GSd-1H-a3Y">
+                                <rect key="frame" x="20" y="72" width="374" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Conjunto B: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sJj-57-mYt">
+                                <rect key="frame" x="20" y="162" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="🐶,🐹,🦊" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ACC-Jg-7y6">
+                                <rect key="frame" x="20" y="108" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="txtConjuntoAAction:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Miv-0i-gp5"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="🦊,🐻,🐼" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wUz-hP-Fu3">
+                                <rect key="frame" x="20" y="191" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="txtConjuntoBAction:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Nzz-bX-2nf"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tKs-Na-bV4">
+                                <rect key="frame" x="20" y="328" width="374" height="31"/>
+                                <color key="backgroundColor" red="0.42807602880000001" green="0.084420867260000004" blue="0.82297152279999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" systemColor="systemBackgroundColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Calcular"/>
+                                <connections>
+                                    <action selector="btnCalcular:" destination="BYZ-38-t0r" eventType="touchUpInside" id="71W-VU-XFz"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resultado: " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3QP-2h-e38">
+                                <rect key="frame" x="20" y="367" width="374" height="278"/>
+                                <color key="backgroundColor" red="0.25269374249999998" green="0.083961762489999994" blue="0.62310355900000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" systemColor="tertiarySystemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="374" id="9X0-fS-H7K"/>
+                                    <constraint firstAttribute="height" constant="278" id="dmd-52-xGx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name=".SFNS-Regular" family=".AppleSystemUIFont" pointSize="27"/>
+                                <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
+                                <color key="highlightedColor" systemColor="systemBackgroundColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Opciones" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T1u-YP-BD7">
+                                <rect key="frame" x="20" y="246" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Tan-fy-Y4n">
+                                <rect key="frame" x="20" y="275" width="374" height="32"/>
+                                <segments>
+                                    <segment title="Union"/>
+                                    <segment title="Interseccion"/>
+                                    <segment title="Diferiencia"/>
+                                    <segment title="Dif Simetrica"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentedAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="HDN-p0-hRF"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.75801742080000001" green="0.34545475240000001" blue="0.96870797870000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tKs-Na-bV4" secondAttribute="trailing" constant="20" id="0YC-34-4eI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wUz-hP-Fu3" secondAttribute="trailing" constant="20" id="5ZU-nJ-Upy"/>
+                            <constraint firstItem="3QP-2h-e38" firstAttribute="top" secondItem="tKs-Na-bV4" secondAttribute="bottom" constant="8" symbolic="YES" id="7xa-cW-S6I"/>
+                            <constraint firstItem="Tan-fy-Y4n" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="9Gs-wf-Znp"/>
+                            <constraint firstItem="wUz-hP-Fu3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Ggg-FM-tNa"/>
+                            <constraint firstItem="ACC-Jg-7y6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="HR4-Re-Woq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sJj-57-mYt" secondAttribute="trailing" constant="20" id="Ip4-r2-K8l"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3QP-2h-e38" secondAttribute="trailing" constant="20" id="Laz-y1-QAj"/>
+                            <constraint firstItem="T1u-YP-BD7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="X3f-2n-Ham"/>
+                            <constraint firstItem="tKs-Na-bV4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="afD-Hs-uFe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GSd-1H-a3Y" secondAttribute="trailing" constant="20" id="bSB-KR-fB2"/>
+                            <constraint firstItem="tKs-Na-bV4" firstAttribute="top" secondItem="Tan-fy-Y4n" secondAttribute="bottom" constant="22" id="c4S-KL-SVh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ACC-Jg-7y6" secondAttribute="trailing" constant="20" id="cVr-Uy-Hfc"/>
+                            <constraint firstItem="wUz-hP-Fu3" firstAttribute="top" secondItem="sJj-57-mYt" secondAttribute="bottom" constant="8" symbolic="YES" id="jJ5-8C-m2m"/>
+                            <constraint firstItem="ACC-Jg-7y6" firstAttribute="top" secondItem="GSd-1H-a3Y" secondAttribute="bottom" constant="15.5" id="mBR-3z-QoI"/>
+                            <constraint firstItem="sJj-57-mYt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="nAC-bz-aI4"/>
+                            <constraint firstItem="sJj-57-mYt" firstAttribute="top" secondItem="ACC-Jg-7y6" secondAttribute="bottom" constant="20" id="nah-GU-QNa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Tan-fy-Y4n" secondAttribute="trailing" constant="20" id="nmA-i7-MGg"/>
+                            <constraint firstItem="GSd-1H-a3Y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="28" id="odx-Oa-mpc"/>
+                            <constraint firstItem="GSd-1H-a3Y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="quQ-t7-k7Q"/>
+                            <constraint firstItem="Tan-fy-Y4n" firstAttribute="top" secondItem="T1u-YP-BD7" secondAttribute="bottom" constant="8" symbolic="YES" id="rst-Ec-Sa6"/>
+                            <constraint firstItem="3QP-2h-e38" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="xds-g5-hfI"/>
+                            <constraint firstItem="T1u-YP-BD7" firstAttribute="top" secondItem="wUz-hP-Fu3" secondAttribute="bottom" constant="21" id="yCM-hg-b7Y"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="T1u-YP-BD7" secondAttribute="trailing" constant="20" id="zmL-lc-d2V"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnCalcularOutlet" destination="tKs-Na-bV4" id="IcR-Cu-btD"/>
+                        <outlet property="lblResultado" destination="3QP-2h-e38" id="DJj-Sg-G3t"/>
+                        <outlet property="segmentoConjunto" destination="Tan-fy-Y4n" id="1hk-Yt-D2v"/>
+                        <outlet property="txtConjuntoA" destination="ACC-Jg-7y6" id="kcb-JJ-EKO"/>
+                        <outlet property="txtConjuntoB" destination="wUz-hP-Fu3" id="RNz-NP-fBn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28.985507246376812" y="69.642857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tertiarySystemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
