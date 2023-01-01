@@ -4,7 +4,7 @@
 //
 //  Created by Guest RETBOT on 30/09/22.
 //
-
+//  By: RETBOT
 #import "ViewController.h"
 
 @interface ViewController (){
@@ -36,7 +36,7 @@
 -(NSInteger) pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component{
     return [paises count];
 }
-
+//  By: RETBOT
 -(NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component{
     return paises[row];
 }
@@ -56,3 +56,4 @@
 }
 
 @end
+//  By: RETBOT
