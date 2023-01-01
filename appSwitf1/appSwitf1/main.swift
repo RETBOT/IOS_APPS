@@ -4,7 +4,7 @@
 //
 //  Created by Usuario invitado on 07/11/22.
 //
-
+//  By: RETBOT
 import Foundation
 
 //print("Hello, World!")
@@ -40,7 +40,7 @@ let valBinario2 = String(Int(valHexa,radix: 16)!,radix: 2)
 
 print("Valor hexa = \(valHexa) a Binario = \(valBinario2)")
 /**/
-
+//  By: RETBOT
 var valHexaInt = Int(valHexa,radix: 16)!
 valHexaInt <<= 2
 let valBinario3 = String(valHexaInt, radix: 2)
@@ -69,7 +69,7 @@ for i in 0..<caracteres.count{
     print(cadResult)
 }
 print(cadResult + " <3")
-
+//  By: RETBOT
 func mayorMenor(array: [Int]) -> (mayor:Int, menor:Int){
     var mayor = array[0]
     var menor = array[0]
@@ -90,3 +90,4 @@ let function = mayorMenor(array: [25,60,12,37,45])
 print("Valor mayor = \(function.mayor), Valor menor = \(function.menor)")
 
 print(function)
+//  By: RETBOT
