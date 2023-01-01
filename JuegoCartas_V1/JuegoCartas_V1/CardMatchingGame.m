@@ -1,7 +1,7 @@
 //
 //  CardMatchingGame.m
 //  JuegoCartas_V1
-//
+////  By: RETBOT
 //  Created by Roberto Esquivel Troncoso on 23/10/22.
 //
 
@@ -29,7 +29,7 @@
                 break;
             }
         }
-    }
+    }//  By: RETBOT
     return self;
 }
 
@@ -66,5 +66,5 @@ static const int COST_TO_CHOOSE = 1;
         card.chosen = YES;
     }
   }
-}
+}//  By: RETBOT
 @end
