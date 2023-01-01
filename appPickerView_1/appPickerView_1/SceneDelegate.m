@@ -4,7 +4,7 @@
 //
 //  Created by Guest User on 30/09/22.
 //
-
+//  By: RETBOT
 #import "SceneDelegate.h"
 
 @interface SceneDelegate ()
@@ -27,7 +27,7 @@
     // Release any resources associated with this scene that can be re-created the next time the scene connects.
     // The scene may re-connect later, as its session was not necessarily discarded (see `application:didDiscardSceneSessions` instead).
 }
-
+//  By: RETBOT
 
 - (void)sceneDidBecomeActive:(UIScene *)scene {
     // Called when the scene has moved from an inactive state to an active state.
@@ -52,6 +52,6 @@
     // Use this method to save data, release shared resources, and store enough scene-specific state information
     // to restore the scene back to its current state.
 }
-
+//  By: RETBOT
 
 @end
