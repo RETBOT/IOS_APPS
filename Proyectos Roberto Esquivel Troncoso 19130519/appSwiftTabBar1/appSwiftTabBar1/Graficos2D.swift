@@ -3,7 +3,7 @@
 //  appSwiftTabBar1
 //
 //  Created by Guest User on 06/12/22.
-//
+////  By: RETBOT
 
 import UIKit
 
@@ -26,7 +26,7 @@ class Graficos2D: UIView {
     @IBOutlet weak var SliderY2: UISlider!
     
     var seleccionado : Int = 0
-    
+    //  By: RETBOT
    
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
@@ -86,7 +86,7 @@ class Graficos2D: UIView {
         } else if seleccionado == 2 {
             var midx : CGFloat = 0.0
             var midy : CGFloat = 0.0
-            
+            //  By: RETBOT
             midx = rect.width/2
             midy = rect.height/2
             var y = rect.height
@@ -119,7 +119,7 @@ class Graficos2D: UIView {
                 canvas?.addLine(to: CGPoint(x: midx, y: y))
                 canvas?.strokePath()
             }
-        }
+        }//  By: RETBOT
     }
     
     @IBOutlet weak var btnDibujar: UIButton!
@@ -141,3 +141,4 @@ class Graficos2D: UIView {
     }
 
 }
+//  By: RETBOT
