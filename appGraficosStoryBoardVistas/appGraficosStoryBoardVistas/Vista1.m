@@ -3,7 +3,7 @@
 //  appGraficosStoryBoardVistas
 //
 //  Created by Usuario invitado on 27/10/22.
-//
+////  By: RETBOT
 
 #import "Vista1.h"
 
@@ -17,7 +17,7 @@
     
     return result;
 }
-
+//  By: RETBOT
 - (void)drawRect:(NSRect)dirtyRect {
     [super drawRect:dirtyRect];
     
@@ -41,3 +41,4 @@
 }
 
 @end
+//  By: RETBOT
