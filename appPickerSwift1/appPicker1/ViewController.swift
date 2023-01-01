@@ -4,7 +4,7 @@
 //
 //  Created by Guest User on 25/11/22.
 //
-
+//  By: RETBOT
 import UIKit
 
 class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
@@ -22,7 +22,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         pickerViewCarros.dataSource = self
         //txtCarro1.inputView = pickerViewCarros
     }
-    
+    //  By: RETBOT
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 2;
     }
@@ -42,5 +42,5 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     }
 
 
-}
+}//  By: RETBOT
 
