@@ -3,7 +3,7 @@
 //  appClaseMatematicas
 //
 //  Created by Usuario invitado on 08/11/22.
-//
+////  By: RETBOT
 
 import Foundation
 
@@ -39,7 +39,7 @@ class Matematicas{
         }while(serie <= exp(1.0));
         
         return serie
-    }
+    }//  By: RETBOT
     // determinar si un numero entero es primo
     
     static func esPrimo(n: Int)->Bool{
@@ -78,7 +78,7 @@ var dato : String = readLine()!
 print("Dato capturado = \(dato)")
 var num:Int? = Int(dato)
 print("Valor entero = \(num!)")
-
+//  By: RETBOT
 var serieEuler = Matematicas.serieE()
 print("Serie de Euler = \(serieEuler)")
 
@@ -106,5 +106,5 @@ if esBisiesto {
 else {
     print("El año \(anho) no es bisiesto")
 }
-
+//  By: RETBOT
 
