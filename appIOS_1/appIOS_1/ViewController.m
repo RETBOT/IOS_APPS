@@ -4,7 +4,7 @@
 //
 //  Created by ROBERTO ESQUIVELTRONCOSO on 21/09/22.
 //
-
+//  By: RETBOT
 #import "ViewController.h"
 
 @interface ViewController ()
@@ -28,7 +28,7 @@ NSString *saludo = @"Hola ";
     _label1.text = saludo2;
     
     //_label11.text = _texto1.text;
-}
+}//  By: RETBOT
 
 - (IBAction)btnCantMayusculas:(UIButton *)sender {
     NSString *cad = _texto1.text;
@@ -79,3 +79,4 @@ NSString *saludo = @"Hola ";
     _texto2.text = newCad;
 }
 @end
+//  By: RETBOT
