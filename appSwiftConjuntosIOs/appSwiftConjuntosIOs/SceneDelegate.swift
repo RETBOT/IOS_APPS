@@ -3,14 +3,14 @@
 //  appSwiftConjuntosIOs
 //
 //  Created by Usuario invitado on 22/11/22.
-//
+////  By: RETBOT
 
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
+//  By: RETBOT
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
@@ -50,3 +50,4 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 }
 
+//  By: RETBOT
