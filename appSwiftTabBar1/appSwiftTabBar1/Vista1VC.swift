@@ -4,7 +4,7 @@
 //
 //  Created by Guest User on 06/12/22.
 //
-
+//  By: RETBOT
 import UIKit
 
 class Vista1VC: UIViewController {
@@ -44,7 +44,7 @@ class Vista1VC: UIViewController {
     @IBAction func segmentedAction(_ sender: UISegmentedControl) {
         let indice : Int = sender.selectedSegmentIndex
         let num = Int(labelNumero.text!)
-        
+        //  By: RETBOT
         if indice == 0 {
             
             if num! >= 0 {
@@ -86,7 +86,7 @@ class Vista1VC: UIViewController {
         txtOperacion.text = resuString
     }
     
-    
+    //  By: RETBOT
     @IBAction func btnResta(_ sender: UIButton) {
         if num == 0 {
             num = Int(String(labelNumero.text!))!
@@ -131,7 +131,7 @@ class Vista1VC: UIViewController {
         txtOperacion.text = resuString
     }
     
-    
+    //  By: RETBOT
     @IBAction func btnModulo(_ sender: UIButton) {
         if num == 0 {
             num = Int(String(labelNumero.text!))!
@@ -157,4 +157,4 @@ class Vista1VC: UIViewController {
     }
 }
 
-
+//  By: RETBOT
