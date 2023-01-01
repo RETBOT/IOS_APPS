@@ -4,7 +4,7 @@
 //
 //  Created by Guest User on 14/11/22.
 //
-
+//  By: RETBOT
 import UIKit
 
 class ViewController: UIViewController {
@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         labelNumero.text = "\(String(describing: lround(Double(sender.value)))) "
         slider1.value = Float(Double(sender.value))
         self.segmentedAction(segmento)
-    }
+    }//  By: RETBOT
     @IBAction func segmentedAction(_ sender: UISegmentedControl) {
         let indice : Int = sender.selectedSegmentIndex
         let num = Int(labelNumero.text!)
@@ -68,7 +68,7 @@ class ViewController: UIViewController {
             texto1.text = n
         }
     }
-    
+    //  By: RETBOT
     @IBAction func btnSuma(_ sender: UIButton) {
         //num = Int(String(labelNumero.text!))!
         if num == 0 {
@@ -97,7 +97,7 @@ class ViewController: UIViewController {
             resuString += " - " + String(num2)
         }
         txtOperacion.text = resuString
-    }
+    }//  By: RETBOT
     
     @IBAction func btnDiv(_ sender: UIButton) {
         if num == 0 {
@@ -135,7 +135,7 @@ class ViewController: UIViewController {
             num = Int(String(labelNumero.text!))!
             
             resuString += num
-            
+          //  By: RETBOT  
         }
         else{
             num2 = Int(String(labelNumero.text!))!
@@ -153,6 +153,6 @@ class ViewController: UIViewController {
         txtOperacion.text = resuString
         resuString = ""
     }
-    
+    //  By: RETBOT
 }
 
