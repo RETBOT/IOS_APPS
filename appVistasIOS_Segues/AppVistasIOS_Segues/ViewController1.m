@@ -4,7 +4,7 @@
 //
 //  Created by Usuario invitado on 28/10/22.
 //
-
+//  By: RETBOT
 #import "ViewController1.h"
 
 @interface ViewController1 ()
@@ -32,7 +32,7 @@
     }
 }
 
-
+//  By: RETBOT
 - (IBAction)btnAcercaDe:(id)sender {
     //OPCION UIAlertController
          UIAlertController * alert=   [UIAlertController
@@ -58,3 +58,4 @@
          [self presentViewController:alert animated:YES completion:nil];
 }
 @end
+//  By: RETBOT
