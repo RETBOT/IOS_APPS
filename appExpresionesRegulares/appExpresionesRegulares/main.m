@@ -4,7 +4,7 @@
 //
 //  Created by Guest User on 06/10/22.
 //
-
+//  By: RETBOT
 #import <Foundation/Foundation.h>
 
 int main(int argc, const char * argv[]) {
@@ -31,7 +31,7 @@ int main(int argc, const char * argv[]) {
         [minVocal appendString:@"[aeiou]"]; // vocales
         [may appendString:@"[A-Z]\\w+"]; // minusculas
         [minVocal appendString:@"[AEIOU]"]; // vocales
-        
+        //  By: RETBOT
         //[minVocal appendString:@"[^aeiou]"]; // no vocales
         
         //'\0' = nulo para finalizar cadenas
@@ -58,3 +58,4 @@ int main(int argc, const char * argv[]) {
     }
     return 0;
 }
+//  By: RETBOT
