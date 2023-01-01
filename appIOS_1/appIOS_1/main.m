@@ -1,4 +1,4 @@
-//
+////  By: RETBOT
 //  main.m
 //  appIOS_1
 //
@@ -16,3 +16,4 @@ int main(int argc, char * argv[]) {
     }
     return UIApplicationMain(argc, argv, nil, appDelegateClassName);
 }
+//  By: RETBOT
