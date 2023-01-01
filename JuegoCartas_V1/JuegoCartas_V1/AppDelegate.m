@@ -4,7 +4,7 @@
 //
 //  Created by Guest User on 12/10/22.
 //
-
+//  By: RETBOT
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
@@ -18,7 +18,7 @@
     // Override point for customization after application launch.
     return YES;
 }
-
+//  By: RETBOT
 
 #pragma mark - UISceneSession lifecycle
 
@@ -36,5 +36,5 @@
     // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
 }
 
-
+//  By: RETBOT
 @end
