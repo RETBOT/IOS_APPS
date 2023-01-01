@@ -1,4 +1,4 @@
-//
+////  By: RETBOT
 //  SceneDelegate.m
 //  appIOS_1
 //
@@ -19,7 +19,7 @@
     // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 }
-
+//  By: RETBOT
 
 - (void)sceneDidDisconnect:(UIScene *)scene {
     // Called as the scene is being released by the system.
@@ -27,7 +27,7 @@
     // Release any resources associated with this scene that can be re-created the next time the scene connects.
     // The scene may re-connect later, as its session was not necessarily discarded (see `application:didDiscardSceneSessions` instead).
 }
-
+//  By: RETBOT
 
 - (void)sceneDidBecomeActive:(UIScene *)scene {
     // Called when the scene has moved from an inactive state to an active state.
@@ -53,5 +53,5 @@
     // to restore the scene back to its current state.
 }
 
-
+//  By: RETBOT
 @end
