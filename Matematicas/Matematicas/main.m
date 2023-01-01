@@ -2,7 +2,7 @@
 //  main.m
 //  Matematicas
 //  19130519
-//  Created by Roberto Esquivel Troncoso on 02/09/22.
+//  Created by Roberto Esquivel Troncoso on 02/09/22.//  By: RETBOT
 //
 
 #import <Foundation/Foundation.h>
@@ -28,7 +28,7 @@ int main(int argc, const char * argv[]) {
         printf("6. Funciones trigonometricas\n");
         printf("Ingresa la opcion: ");
         scanf("%d",&opc);
-
+//  By: RETBOT
         if(opc == 1){
             float na, nb;
             
@@ -108,7 +108,7 @@ int main(int argc, const char * argv[]) {
         }
         
         
-        
+        //  By: RETBOT
         
     }
     return 0;
