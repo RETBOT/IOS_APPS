@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  appPicker1
 //
-//  Created by Usuario invitado on 25/11/22.
+//  Created by Usuario invitado on 25/11/22.//  By: RETBOT
 //
 
 import UIKit
@@ -26,7 +26,7 @@ class ViewController: UIViewController, UIPickerViewDelegate , UIPickerViewDataS
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
             return 2;
-    }
+    }//  By: RETBOT
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         return carroColor[component].count
     }
@@ -41,7 +41,7 @@ class ViewController: UIViewController, UIPickerViewDelegate , UIPickerViewDataS
         
         texto1.text = carro + " " + color
     }
-    
+    //  By: RETBOT
     @IBOutlet weak var pickerView1: UIPickerView!
 }
 
