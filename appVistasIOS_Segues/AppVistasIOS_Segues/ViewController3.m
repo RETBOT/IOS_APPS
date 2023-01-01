@@ -4,7 +4,7 @@
 //
 //  Created by Usuario invitado on 28/10/22.
 //
-
+//  By: RETBOT
 #import "ViewController3.h"
 
 @interface ViewController3 ()
@@ -27,7 +27,7 @@
     // Pass the selected object to the new view controller.
 }
 */
-
+//  By: RETBOT
 - (IBAction)segmentControlValue:(UISegmentedControl *)sender {
     switch (self.segmentControl.selectedSegmentIndex) {
         case 0:
@@ -51,3 +51,4 @@
     }
 }
 @end
+//  By: RETBOT
