@@ -3,7 +3,7 @@
 //  JuegoCartas_V1
 //
 //  Created by Guest User on 12/10/22.
-//
+////  By: RETBOT
 
 #import "ViewController.h"
 #import "Deck.h"
@@ -32,7 +32,7 @@
 -(Deck *)createDeck{
     return [[JuegoCartaDeck alloc] init];
 }
-
+//  By: RETBOT
 - (void) setFlipCount:(int)flipCount{
     _flipCount = flipCount;
     self.flipsLabel.text = [NSString stringWithFormat:@"Flips : %d",self.flipCount];
@@ -61,7 +61,7 @@
      
     //self.flipCount++;
 }
-
+//  By: RETBOT
 -(void) updateUI{
     for (UIButton *btnCarta in self.btnCartas) {
         NSUInteger btnCartaIndice = [self.btnCartas indexOfObject:btnCarta];
@@ -86,4 +86,4 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
-@end
+@end//  By: RETBOT
