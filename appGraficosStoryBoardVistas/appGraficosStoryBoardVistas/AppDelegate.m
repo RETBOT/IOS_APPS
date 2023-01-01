@@ -4,7 +4,7 @@
 //
 //  Created by Usuario invitado on 27/10/22.
 //
-
+//  By: RETBOT
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
@@ -28,5 +28,5 @@
     return YES;
 }
 
-
+//  By: RETBOT
 @end
