@@ -4,7 +4,7 @@
 //
 //  Created by Roberto Esquivel Troncoso on 30/08/22.
 //
-
+//  By: RETBOT
 #import "Punto.h"
 #import <math.h>
 
@@ -29,7 +29,7 @@ static NSInteger nPuntos = 0;
         nPuntos++;
     return self;
 }
-
+//  By: RETBOT
 -(NSInteger) x
 {
     //return [self x];
@@ -56,7 +56,7 @@ static NSInteger nPuntos = 0;
 -(NSInteger) y
 {
     return y;
-}
+}//  By: RETBOT
 -(void) setY:(NSInteger) paramY
 {
     y = paramY;
@@ -91,7 +91,7 @@ static NSInteger nPuntos = 0;
     resul->y = [self y] + [p y];
     return resul;
 }
-
+//  By: RETBOT
 // utilizar parametros variables
 // Documentar ñas funciones utilizadas
 // https://elbauldelprogramador.com/parametros-variabl-es-en-cc/
@@ -122,7 +122,7 @@ static NSInteger nPuntos = 0;
     //return dist;
     return sqrt(pow(p.x - x, 2.0) + pow([p y] - y, 2));
   
-   
+   //  By: RETBOT
     
     
 }
