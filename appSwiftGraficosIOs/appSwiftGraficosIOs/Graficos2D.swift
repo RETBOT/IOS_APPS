@@ -4,7 +4,7 @@
 //
 //  Created by Usuario invitado on 28/11/22.
 //
-
+//  By: RETBOT
 import UIKit
 
 class Graficos2D: UIView {
@@ -19,7 +19,7 @@ class Graficos2D: UIView {
         //canvas?.setStrokeColor(UIColor.blue.cgColor)
         //let colorSpace = CGColorSpaceCreateDeviceRGB()
         
-        
+        //  By: RETBOT
         //let componentes : [CGFloat] = [CGFloat(Float.random(in: 0.0..<1.0)), CGFloat(drand48()), 0.0, 1.0]
         // Investigar el tipo drand48
         //let color = CGColor(colorSpace: colorSpace, components: componentes)
@@ -39,5 +39,5 @@ class Graficos2D: UIView {
         
     }
  
-
+//  By: RETBOT
 }
