@@ -4,7 +4,7 @@
 //
 //  Created by Usuario invitado on 14/12/22.
 //
-    
+    //  By: RETBOT
 import SwiftUI
 import MapKit
 
@@ -25,7 +25,7 @@ struct ContentView: View {
     
     var body: some View {
         
-        
+        //  By: RETBOT
         Map(coordinateRegion: $region, annotationItems: places) {
             place in //MapPin(coordinate: place.coordinate) } . edgesIgnoringSafeArea(.all)
             MapAnnotation(coordinate: place.coordinate) {
@@ -47,4 +47,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-*/
+*///  By: RETBOT
