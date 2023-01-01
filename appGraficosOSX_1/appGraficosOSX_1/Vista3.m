@@ -1,7 +1,7 @@
 //
 //  Vista3.m
 //  appGraficosOSX_1
-//
+////  By: RETBOT
 //  Created by Usuario invitado on 26/10/22.
 //
 
@@ -43,7 +43,7 @@
     srand((unsigned) time(NULL));
     /*NSColor *color = [NSColor colorWithSRGBRed:(random() % 255/255.0) green:(random() % 255/255.0) blue:(random() % 255/255.0) alpha:1];
 
-
+//  By: RETBOT
     NSColor *color = [NSColor colorWithSRGBRed:(220/255.0) green:(230/255.0) blue:(150/255.0) alpha:1];
      */
 
@@ -112,7 +112,7 @@
     NSColor *color = [NSColor colorWithSRGBRed:(random() % 255/255.0) green:(random() % 255/255.0) blue:(random() % 255/255.0) alpha:1];
     
     [color set];
-    
+    //  By: RETBOT
     for(x = midx-250; x <= midx; x+=10)
        {
           y = midy - (x-70) * 0.4;
@@ -166,7 +166,7 @@
       }
     
     [path stroke];
-}
+}//  By: RETBOT
 -(void) dibujaCurbaBezier{
     NSRect r = [self bounds];
     NSPoint p1 = NSMakePoint(r.size.width/4, r.size.height/4);//(100, 100);
@@ -241,5 +241,5 @@
     
     [gradientR drawFromCenter:centro radius:primerRadio toCenter:punto2 radius:2 options:0];
 }
-
+//  By: RETBOT
 @end
