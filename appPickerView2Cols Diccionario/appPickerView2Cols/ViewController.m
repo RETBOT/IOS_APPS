@@ -4,7 +4,7 @@
 //
 //  Created by Roberto Esquivel Troncoso on 03/10/22.
 //
-
+//  By: RETBOT
 #import "ViewController.h"
 #import <AVFoundation/AVFoundation.h>
 
@@ -208,7 +208,7 @@
                           @"Yemen", @"181",
                           @"Yibuti",@"182",
                           @"Zimbabue",@"183",
-                          nil];
+                          nil];//  By: RETBOT
     _diccionarioPaisesImagenes = [NSDictionary dictionaryWithObjectsAndKeys:
                                   @"Afganistan",        @"0",
                                   @"Aland",             @"1",
@@ -400,7 +400,7 @@
     _pickerView1.delegate = self;
 
     _lbl1.text = @"Pais Seleccionado : Afganistan";
-    
+    //  By: RETBOT
     UIColor *color = [UIColor colorWithRed: (255./255) green:(255./255) blue:(255./255) alpha:1.0];
     
     self.view.backgroundColor = color;
@@ -437,7 +437,7 @@
 
 - (IBAction)btnVerificar:(UIButton *)sender {
     BOOL band = true;
-    
+    //  By: RETBOT
     if([bandera isEqual:banderaSeleccionada]){
         _lblResultado.text = @"Resultado : Correctoooooooo 👌";
         band = false;
@@ -458,7 +458,7 @@
         NSURL *sonidoUrl = [NSURL fileURLWithPath:path];
         
         audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:sonidoUrl error:nil];
-        
+        //  By: RETBOT
         audioPlayer.volume = 50;
         [audioPlayer play];
         vidas = vidas - 1;
@@ -477,3 +477,4 @@
 }
 
 @end
+//  By: RETBOT
