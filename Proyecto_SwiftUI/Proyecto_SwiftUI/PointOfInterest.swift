@@ -4,7 +4,7 @@
 //
 //  Created by Usuario invitado on 14/12/22.
 //
-
+//  By: RETBOT
 import Foundation
 import MapKit
 
@@ -21,3 +21,4 @@ struct PointOfInterest: Identifiable {
         CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
     }
 }
+//  By: RETBOT
