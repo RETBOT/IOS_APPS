@@ -4,7 +4,7 @@
 //
 //  Created by Usuario invitado on 26/10/22.
 //
-
+//  By: RETBOT
 #import "Vista2.h"
 
 @implementation Vista2
@@ -65,7 +65,7 @@
     punto1.x = r.origin.x;
     punto1.y = r.origin.y;
     [path moveToPoint:punto1];
-    
+    //  By: RETBOT
     punto1.x = r.origin.x + r.size.width;
     punto1.y = r.origin.y + r.size.width / 2.5;
     [path lineToPoint:punto1];
@@ -134,7 +134,7 @@
           
           punto2.x = x;
           punto2.y = midy;
-          
+          //  By: RETBOT
           [path moveToPoint:punto1];
           [path lineToPoint:punto2];
       }
@@ -197,7 +197,7 @@
     NSPoint p0 = NSMakePoint(r.size.width/1.5, r.size.height/4);//( 400, 100 );
     NSPoint p1 = NSMakePoint(r.size.width/1.5, r.size.height/3);//( 400, 250 );
     NSPoint p2 = NSMakePoint(r.size.width/0.5, r.size.height/3);//( 500, 250 );
-
+//  By: RETBOT
     srand((unsigned) time(NULL));
     NSColor *color = [NSColor colorWithSRGBRed:(random() % 255/255.0) green:(random() % 255/255.0) blue:(random() % 255/255.0) alpha:1];
     
@@ -225,7 +225,7 @@
         [path setFlatness:100];
         [path stroke];
 }
-
+//  By: RETBOT
 -(void) dibujarGradientRadial{
     NSRect bounds = [self bounds];
     NSColor *color = [NSColor colorWithSRGBRed:(random() % 255/255.0) green:(random() % 255/255.0) blue:(random() % 255/255.0) alpha:1];
@@ -242,3 +242,4 @@
     [gradientR drawFromCenter:centro radius:primerRadio toCenter:punto2 radius:2 options:0];
 }
 @end
+//  By: RETBOT
