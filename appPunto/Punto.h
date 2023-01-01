@@ -4,7 +4,7 @@
 //
 //  Created by Usuario invitado on 30/08/22.
 //
-
+//  By: RETBOT
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
@@ -26,7 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 -(void) setX:(NSInteger) paramX y_Y:(NSInteger) paramY;
 -(void) setX:(NSInteger) paramX incrementar:(NSInteger) paramSumar;
 
-
+//  By: RETBOT
 -(NSInteger) y;
 -(void) setY:(NSInteger) paramY;
 -(void) setY:(NSInteger) paramY x_X:(NSInteger) paramX;
@@ -47,5 +47,5 @@ NS_ASSUME_NONNULL_BEGIN
 -(CGFloat) calcularDistancia:(Punto *)p1 mas: (Punto *)p2;
 -(CGFloat) calcularDistancia2:(Punto *)p;
 @end
-
+//  By: RETBOT
 NS_ASSUME_NONNULL_END
