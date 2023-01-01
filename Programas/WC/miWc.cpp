@@ -7,7 +7,7 @@ APP. wc de Unix'Like
 PARA ORDENAR CADENAS CON BURBUJA en UNIX’Like
 
 */
-
+//  By: RETBOT
 //#include <stdio.h>
 #include <iostream>
 #include <fstream>
@@ -79,7 +79,7 @@ int main(int argc, char **argv) {
    cout<<endl<<argv[2]<<endl; // imprime el nombre del archivo
 
   string aux = ""; // sintring auxiliar para ordenar el arreglo 
-  
+  //  By: RETBOT
   for(int i=0; i<_lineas; i++){ // For para recorrer palabra 
       for(int j=i+1; j<_lineas; j++){ // for para comparar la palabra actual, con las demas palabras 
 		if(arre[i]>arre[j]){ // Si la palabra actual, es mayor (en ASCII) con la palabra siguiente  
@@ -100,7 +100,7 @@ int main(int argc, char **argv) {
          arreChar[k++] = arre[i][j]; // almacenamos los carcteres del strng el en arreglo de char 
     }
   }
-
+//  By: RETBOT
   FILE *archivo;  // Utilizamos FILE para crear y escribir en un archivo 
   archivo = fopen(argv[2],"wb"); // se abre el archivo 
   fprintf(archivo, arreChar); // y se escribe en el 
@@ -109,3 +109,4 @@ int main(int argc, char **argv) {
 
   return 0;
 }
+//  By: RETBOT
