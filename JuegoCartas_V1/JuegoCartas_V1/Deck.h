@@ -3,7 +3,7 @@
 //  JuegoCartas_V1
 //
 //  Created by Roberto Esquivel Troncoso on 23/10/22.
-//
+////  By: RETBOT
 
 #import <Foundation/Foundation.h>
 #import "Carta.h"
@@ -21,3 +21,4 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 NS_ASSUME_NONNULL_END
+//  By: RETBOT
