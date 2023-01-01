@@ -3,7 +3,7 @@
 //  appSwiftTabBar1
 //
 //  Created by Guest User on 12/12/22.
-//
+////  By: RETBOT
 
 import UIKit
 import SceneKit
@@ -32,7 +32,7 @@ class Vista6VC: UIViewController {
     func squareFunction(x: Float,z: Float) -> Float {
        return x * x + z * z
     }
-
+//  By: RETBOT
     func Malla(){
         let sceneView = SCNView(frame: self.imageView.frame)
         
@@ -75,7 +75,7 @@ class Vista6VC: UIViewController {
               let moveDown = SCNAction.moveBy(x: 0, y: -y, z: 0, duration: 2.0)
 
               let sequence = SCNAction.sequence([moveUp,moveDown])
-
+//  By: RETBOT
               let repeatedSequence = SCNAction.repeatForever(sequence)
 
               capsuleNode.runAction(repeatedSequence)
@@ -122,7 +122,7 @@ class Vista6VC: UIViewController {
     }
     
 
-    /*
+    /*//  By: RETBOT
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
