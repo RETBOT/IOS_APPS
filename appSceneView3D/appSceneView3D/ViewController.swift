@@ -4,7 +4,7 @@
 //
 //  Created by Usuario invitado on 02/12/22.
 //
-
+//  By: RETBOT
 import UIKit
 import SceneKit
 
@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         
         let luzNodo = SCNNode()
         luzNodo.light = luz
-        
+        //  By: RETBOT
         luzNodo.position = SCNVector3(x: 1.0, y: 1.0, z: 1.5)
      // let cubo = SCNBox(width: 1.0, height: 2.0, length: 1.0, chamferRadius: 0.3)
         let cubo = SCNBox(width: 1.0, height: 2.0, length: 1.0, chamferRadius: 0.3)
@@ -60,4 +60,4 @@ class ViewController: UIViewController {
 
 
 }
-
+//  By: RETBOT
