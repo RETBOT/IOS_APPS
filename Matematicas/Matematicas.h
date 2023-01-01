@@ -4,7 +4,7 @@
 //
 //  Created by Guest User on 02/09/22.
 //
-
+//  By: RETBOT
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void) multiplica:(NSNumber *)a conB:(NSNumber *)b resultado:(NSNumber *)resultado;
 - (void) multiplica2:(NSNumber *)a conB:(NSNumber *)b resultado:(float *)resultado;
-
+//  By: RETBOT
 // Diseñe e implemente un metodo para iterativo para
 // calcular el facorial de un numero entero
 - (NSInteger) facorial: (NSInteger)a;
@@ -45,3 +45,4 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 NS_ASSUME_NONNULL_END
+//  By: RETBOT
