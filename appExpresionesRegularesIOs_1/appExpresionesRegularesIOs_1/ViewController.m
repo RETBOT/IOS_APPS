@@ -3,7 +3,7 @@
 //  appExpresionesRegularesIOs_1
 //
 //  Created by Roberto Esquivel Troncoso on 09/10/22.
-//
+////  By: RETBOT
 
 #import "ViewController.h"
 
@@ -30,7 +30,7 @@
     
     self.view.backgroundColor = color;
     
-     
+     //  By: RETBOT
     }
 
 - (NSInteger)numberOfComponentsInPickerView:(nonnull UIPickerView *)pickerView {
@@ -59,7 +59,7 @@
             break;
     }
 }
-
+//  By: RETBOT
 - (IBAction)btnValidar:(UIButton *)sender {
     NSString *expresion;
     NSString *mail = _txtCorreoElectronico.text;
@@ -93,3 +93,4 @@
         _lblResultado.text = @"Mail no valido";
 }
 @end
+//  By: RETBOT
