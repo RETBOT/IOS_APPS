@@ -4,7 +4,7 @@
 //
 //  Created by Roberto Esquivel Troncoso on 03/10/22.
 //
-
+//  By: RETBOT
 #import "ViewController.h"
 
 @interface ViewController (){
@@ -38,7 +38,7 @@
     
     NSLog(@"%@",_lbl1.text);
  
-}
+}//  By: RETBOT
 
 - (NSInteger)numberOfComponentsInPickerView:(nonnull UIPickerView *)pickerView {
     return 2;
@@ -113,7 +113,7 @@
             break;
     }
 }
-
+//  By: RETBOT
 /*
 - (void)encodeWithCoder:(nonnull NSCoder *)coder {
     
@@ -160,3 +160,4 @@
 }
 */
 @end
+//  By: RETBOT
