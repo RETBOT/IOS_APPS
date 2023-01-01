@@ -68,7 +68,7 @@ class ViewController: UIViewController {
             texto1.text = n
         }
     }
-    //  By: RETBOT
+    
     @IBAction func btnSuma(_ sender: UIButton) {
         //num = Int(String(labelNumero.text!))!
         if num == 0 {
@@ -83,7 +83,7 @@ class ViewController: UIViewController {
         }
         txtOperacion.text = resuString
     }
-    
+    //  By: RETBOT
     
     @IBAction func btnResta(_ sender: UIButton) {
         if num == 0 {
@@ -97,7 +97,7 @@ class ViewController: UIViewController {
             resuString += " - " + String(num2)
         }
         txtOperacion.text = resuString
-    }//  By: RETBOT
+    }
     
     @IBAction func btnDiv(_ sender: UIButton) {
         if num == 0 {
@@ -114,7 +114,7 @@ class ViewController: UIViewController {
         txtOperacion.text = resuString
     }
     
-    
+    //  By: RETBOT
     @IBAction func btnMulti(_ sender: UIButton) {
         if num == 0 {
             num = Int(String(labelNumero.text!))!
@@ -135,7 +135,7 @@ class ViewController: UIViewController {
             num = Int(String(labelNumero.text!))!
             
             resuString += num
-          //  By: RETBOT  
+            
         }
         else{
             num2 = Int(String(labelNumero.text!))!
@@ -146,13 +146,13 @@ class ViewController: UIViewController {
         }
         txtOperacion.text = resuString
     }
-    
+    //  By: RETBOT
     @IBAction func btnIgual(_ sender: UIButton) {
         resuString += " = " + String(resultado)
         labelNumero.text = resultado
         txtOperacion.text = resuString
         resuString = ""
     }
-    //  By: RETBOT
+    
 }
-
+//  By: RETBOT
