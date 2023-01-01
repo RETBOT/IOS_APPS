@@ -3,7 +3,7 @@
 //  Matematicas
 //
 //  Created by Guest User on 02/09/22.
-//
+////  By: RETBOT
 
 #import "Matematicas.h"
 #import <math.h>
@@ -39,7 +39,7 @@
     return fac;
     
 }
-
+//  By: RETBOT
 - (NSInteger) facorialR: (NSInteger)a{
     Matematicas *mate = [[Matematicas alloc] init];
     if(a == 0){
@@ -47,7 +47,7 @@
     }else{
         return a * [mate facorialR:a-1];
     }
-}
+}//  By: RETBOT
 - (Boolean) esPrimo: (NSInteger )num {
     if(num % 2 != 0){
         return true;
@@ -67,4 +67,4 @@
     return 0;
 }
 
-@end
+@end//  By: RETBOT
