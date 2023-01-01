@@ -4,7 +4,7 @@
 //
 //  Created by Guest User on 26/09/22.
 //
-
+//  By: RETBOT
 #import "ViewController.h"
 
 @interface ViewController ()
@@ -31,7 +31,7 @@
     
     NSString *cad = _texto1.text;
     NSInteger len = _texto1.text.length;
-    
+    //  By: RETBOT
     int i= 0, cont = 0;
     
     while(i < len){
@@ -71,7 +71,7 @@ NSString *saludo = @"Hola ";
 - (IBAction)btnSaludar:(UIButton *)sender {
     // _label1.text = [saludo stringByAppendingString:_texto1.text];
     _label1.textColor = [UIColor colorWithRed:(25.0/255) green:(100.0/255) blue:(210/255.0) alpha:1];
-    
+    //  By: RETBOT
     NSString *saludo2 = [NSString stringWithFormat:@"Hola %@",_texto1.text];
     _label1.text = saludo2;
     
@@ -82,3 +82,4 @@ NSString *saludo = @"Hola ";
     [self becomeFirstResponder];
 }
 @end
+//  By: RETBOT
