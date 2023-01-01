@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  appPickerView2
 //
-//  Created by Usuario invitado on 25/11/22.
+//  Created by Usuario invitado on 25/11/22.//  By: RETBOT
 //
 
 import UIKit
@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         toolBar.barTintColor = .green
         toolBar.tintColor = .orange
         let botonOcultar = UIBarButtonItem(title: "⬇️⬇️⬇️", style: .plain, target: self, action: #selector(ViewController.dismissKeyboard))
-        
+        //  By: RETBOT
         toolBar.setItems([botonOcultar], animated: false)
         toolBar.isUserInteractionEnabled = true
         texto1.inputAccessoryView = toolBar
@@ -49,7 +49,7 @@ extension ViewController: UIPickerViewDelegate, UIPickerViewDataSource{
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
-    
+    //  By: RETBOT
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         return carros1.count
     }
@@ -71,3 +71,4 @@ extension ViewController: UIPickerViewDelegate, UIPickerViewDataSource{
      */
 }// FIN DE LA EXTENSION
 
+//  By: RETBOT
