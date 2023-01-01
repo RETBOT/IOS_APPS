@@ -4,7 +4,7 @@
 //
 //  Created by Usuario invitado on 21/09/22.
 //
-
+//  By: RETBOT
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
@@ -19,7 +19,7 @@
     return YES;
 }
 
-
+//  By: RETBOT
 #pragma mark - UISceneSession lifecycle
 
 
@@ -38,3 +38,4 @@
 
 
 @end
+//  By: RETBOT
