@@ -4,7 +4,7 @@
 //
 //  Created by Guest User on 07/12/22.
 //
-
+//  By: RETBOT
 import UIKit
 import SceneKit
 
@@ -44,7 +44,7 @@ class Vista5VC: UIViewController {
         sliderLuzZ.value = sender.value
         seleccFigura()
     }
-    
+    //  By: RETBOT
     // CAMARA
     @IBAction func sliderCamaraX(_ sender: UISlider) {
         sliderCamaraX.value = sender.value
@@ -77,7 +77,7 @@ class Vista5VC: UIViewController {
         seleccFigura()
     }
     
-    
+    //  By: RETBOT
     @IBAction func segmentoFiguras(_ sender: UISegmentedControl) {
         let indice : Int = segmentoFiguras.selectedSegmentIndex
         
@@ -113,7 +113,7 @@ class Vista5VC: UIViewController {
         self.imageView.addSubview(sceneView)
         let scene = SCNScene()
         sceneView.scene = scene
-        
+        //  By: RETBOT
         let camara = SCNCamera()
         let camaraNodo = SCNNode()
         camaraNodo.camera = camara
@@ -171,7 +171,7 @@ class Vista5VC: UIViewController {
         scene.rootNode.addChildNode(camaraNodo)
         scene.rootNode.addChildNode(cuboNodo)
         scene.rootNode.addChildNode(planoNodo)
-        
+        //  By: RETBOT
     }
     
     func dibujaPyramid(){
@@ -209,7 +209,7 @@ class Vista5VC: UIViewController {
         //let geometriaCubo = SCNTube(innerRadius: 0.0, outerRadius: 1.0, height: 1.0)
         // Dona
         //let geometriaCubo = SCNTorus(ringRadius: 1.0, pipeRadius: 0.5)
-        
+        //  By: RETBOT
         //let geometriaCubo = SCNCone(topRadius: 0.0, bottomRadius: 0.7, height: 1.0)
         
         //let geometriaCubo = SCNSphere(radius: 0.7)
@@ -247,7 +247,7 @@ class Vista5VC: UIViewController {
         scene.rootNode.addChildNode(camaraNodo)
         scene.rootNode.addChildNode(cuboNodo)
         scene.rootNode.addChildNode(planoNodo)
-        
+        //  By: RETBOT
     }
     
     func dibujaCylinder(){
@@ -310,7 +310,7 @@ class Vista5VC: UIViewController {
         let materialCubo1 = SCNMaterial()
         materialCubo1.diffuse.contents = UIColor.systemGreen
         geometriaCubo.materials = [materialCubo1]
-        
+        //  By: RETBOT
         // Color plano cubo
         let materialCubo2 = SCNMaterial()
         materialCubo2.diffuse.contents = UIColor.systemYellow
@@ -372,7 +372,7 @@ class Vista5VC: UIViewController {
         // HACER MODIFICACIONES
         let planoGeometria = SCNPlane(width: 50.0, height: 50.0)
         let planoNodo = SCNNode(geometry: planoGeometria)
-        
+        //  By: RETBOT
         // Modifiar el valor angular de los 3 ejes
         planoNodo.eulerAngles = SCNVector3(x:GLKMathDegreesToRadians(-90), y: 0, z: 0)
         
@@ -442,7 +442,7 @@ class Vista5VC: UIViewController {
         // HACER MODIFICACIONES
         let planoGeometria = SCNPlane(width: 50.0, height: 50.0)
         let planoNodo = SCNNode(geometry: planoGeometria)
-        
+        //  By: RETBOT
         // Modifiar el valor angular de los 3 ejes
         planoNodo.eulerAngles = SCNVector3(x:GLKMathDegreesToRadians(-90), y: 0, z: 0)
         
@@ -583,7 +583,7 @@ class Vista5VC: UIViewController {
         planoNodo.eulerAngles = SCNVector3(x:GLKMathDegreesToRadians(-90), y: 0, z: 0)
         
         planoNodo.position = SCNVector3(x:0.0, y:-0.5, z:0.0)
-        
+        //  By: RETBOT
         // Color cubo
         let materialCubo1 = SCNMaterial()
         materialCubo1.diffuse.contents = UIColor.systemGreen
@@ -611,5 +611,5 @@ class Vista5VC: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+//  By: RETBOT
 }
