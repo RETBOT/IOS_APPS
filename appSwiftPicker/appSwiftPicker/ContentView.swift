@@ -4,7 +4,7 @@
 //
 //  Created by Guest User on 08/12/22.
 //
-
+//  By: RETBOT
 import SwiftUI
 
 enum Sabor: String, CaseIterable, Identifiable {
@@ -16,7 +16,7 @@ enum Sabor: String, CaseIterable, Identifiable {
         self.rawValue
     }
 }
-
+//  By: RETBOT
 struct VistaHelados: View {
     @State private var saborSeleccionado = Sabor.chocolate
     var body: some View {
@@ -35,3 +35,4 @@ struct ContentView_Previews: PreviewProvider {
         VistaHelados()
     }
 }
+//  By: RETBOT
