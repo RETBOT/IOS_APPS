@@ -4,7 +4,7 @@
 //
 //  Created by Guest User on 06/12/22.
 //
-
+//  By: RETBOT
 import UIKit
 
 class DegradadoLineal: UIView {
@@ -42,7 +42,7 @@ class DegradadoLineal: UIView {
         
         let gradienteRadial = CGGradient(colorsSpace: colorSpaceRadial, colors: coloresR as CFArray, locations: locationR)
        
-        
+        //  By: RETBOT
         var startPointR = CGPoint()
         var endPointR = CGPoint()
         startPointR.x = 100
@@ -62,4 +62,4 @@ class DegradadoLineal: UIView {
     }
     
 
-}
+}//  By: RETBOT
