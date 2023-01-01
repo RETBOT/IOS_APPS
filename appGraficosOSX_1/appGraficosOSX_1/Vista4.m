@@ -4,7 +4,7 @@
 //
 //  Created by Usuario invitado on 26/10/22.
 //
-
+//  By: RETBOT
 #import "Vista4.h"
 
 @implementation Vista4
@@ -36,7 +36,7 @@
     NSRect r = [self bounds];
     //[[NSColor whiteColor] set];
     
-    
+    //  By: RETBOT
     NSBezierPath *path = [[NSBezierPath alloc] init];
     [path setLineWidth:3.0];
     
@@ -112,7 +112,7 @@
     NSColor *color = [NSColor colorWithSRGBRed:(random() % 255/255.0) green:(random() % 255/255.0) blue:(random() % 255/255.0) alpha:1];
     
     [color set];
-    
+    //  By: RETBOT
     for(x = midx-250; x <= midx; x+=10)
        {
           y = midy - (x-70) * 0.4;
@@ -221,7 +221,7 @@
         [path curveToPoint:NSMakePoint(r.size.height/1.5, r.size.height/4)//(500, 200)
               controlPoint1:NSMakePoint(r.size.height/1.5, r.size.height/1.3)//(500, 800)
               controlPoint2:NSMakePoint(0, -r.size.height/1.5)];//(0, -400)];
-
+//  By: RETBOT
         [path setFlatness:100];
         [path stroke];
 }
@@ -240,5 +240,5 @@
     
     [gradientR drawFromCenter:centro radius:primerRadio toCenter:punto2 radius:2 options:0];
 }
-
+//  By: RETBOT
 @end
