@@ -3,7 +3,7 @@
 //  appGraficosOSX_1
 //
 //  Created by Usuario invitado on 26/10/22.
-//
+////  By: RETBOT
 
 #import <Cocoa/Cocoa.h>
 
@@ -19,3 +19,4 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 NS_ASSUME_NONNULL_END
+//  By: RETBOT
