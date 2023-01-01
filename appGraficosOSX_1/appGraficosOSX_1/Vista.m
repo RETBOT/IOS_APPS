@@ -3,7 +3,7 @@
 //  appGraficosOSX_1
 //
 //  Created by Usuario invitado on 17/10/22.
-//
+////  By: RETBOT
 
 #import "Vista.h"
 
@@ -35,7 +35,7 @@
     NSRect r = [self bounds];
     //[[NSColor whiteColor] set];
     
-    
+    //  By: RETBOT
     NSBezierPath *path = [[NSBezierPath alloc] init];
     [path setLineWidth:3.0];
     
@@ -72,7 +72,7 @@
     punto1.x = r.origin.x;
     punto1.y = r.origin.y + r.size.width / 2.5;
     [path lineToPoint:punto1];
-    
+    //  By: RETBOT
     punto1.x = r.origin.x + r.size.width;
     punto1.y = r.origin.y;
     [path lineToPoint:punto1];
@@ -111,7 +111,7 @@
     NSColor *color = [NSColor colorWithSRGBRed:(random() % 255/255.0) green:(random() % 255/255.0) blue:(random() % 255/255.0) alpha:1];
     
     [color set];
-    
+    //  By: RETBOT
     for(x = midx-250; x <= midx; x+=10)
        {
           y = midy - (x-70) * 0.4;
@@ -178,7 +178,7 @@
 
     srand((unsigned) time(NULL));
     NSColor *color = [NSColor colorWithSRGBRed:(random() % 255/255.0) green:(random() % 255/255.0) blue:(random() % 255/255.0) alpha:1];
-    
+    //  By: RETBOT
     [color set];
     // Constructing the path for the triangle
     NSBezierPath *bp = [NSBezierPath bezierPath];
@@ -225,7 +225,7 @@
 
         [path setFlatness:100];
         [path stroke];
-}
+}//  By: RETBOT
 
 -(void) dibujarGradientRadial{
     NSRect bounds = [self bounds];
@@ -243,3 +243,4 @@
     [gradientR drawFromCenter:centro radius:primerRadio toCenter:punto2 radius:2 options:0];
 }
 @end
+//  By: RETBOT
