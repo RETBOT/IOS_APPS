@@ -3,7 +3,7 @@
 //  JuegoCartas_V1
 //
 //  Created by Guest User on 12/10/22.
-//
+////  By: RETBOT
 
 #import "SceneDelegate.h"
 
@@ -33,7 +33,7 @@
     // Called when the scene has moved from an inactive state to an active state.
     // Use this method to restart any tasks that were paused (or not yet started) when the scene was inactive.
 }
-
+//  By: RETBOT
 
 - (void)sceneWillResignActive:(UIScene *)scene {
     // Called when the scene will move from an active state to an inactive state.
@@ -53,5 +53,5 @@
     // to restore the scene back to its current state.
 }
 
-
+//  By: RETBOT
 @end
