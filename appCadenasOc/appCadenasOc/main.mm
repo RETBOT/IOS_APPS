@@ -4,7 +4,7 @@
 //
 //  Created by Usuario invitado on 20/09/22.
 //
-
+//  By: RETBOT
 #import <Foundation/Foundation.h>
 #import <iostream>
 using namespace std;
@@ -44,7 +44,7 @@ int main(int argc, const char * argv[]) {
         // Utilizando clases de objetive-c determine mayusculas y minusculas en la cadena argv[4]
         
         // NSCharacterSet  clase para
-
+//  By: RETBOT
         int min = 0, may = 0;
         int vocalesMin = 0;
         int vocalesMay = 0;
@@ -56,7 +56,7 @@ int main(int argc, const char * argv[]) {
             else if([cadArgv characterAtIndex:i] >= 'A' && [cadArgv characterAtIndex:i] <= 'Z')
                 may++;
             */
-            
+            //  By: RETBOT
             if([[NSCharacterSet uppercaseLetterCharacterSet] characterIsMember:[cadArgv characterAtIndex:i]])
                 may++;
             if([[NSCharacterSet lowercaseLetterCharacterSet] characterIsMember:[cadArgv characterAtIndex:i]])
@@ -80,3 +80,4 @@ int main(int argc, const char * argv[]) {
     }
     return 0;
 }
+//  By: RETBOT
