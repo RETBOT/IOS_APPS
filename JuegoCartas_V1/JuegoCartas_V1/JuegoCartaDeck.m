@@ -2,7 +2,7 @@
 //  JuegoCartaDeck.m
 //  JuegoCartas_V1
 //
-//  Created by Roberto Esquivel Troncoso on 23/10/22.
+//  Created by Roberto Esquivel Troncoso on 23/10/22.//  By: RETBOT
 //
 
 #import "JuegoCartaDeck.h"
@@ -19,8 +19,9 @@
                 card.suit = suit;
                 [self addCard:card];
             }
-        }
+        }//  By: RETBOT
     }
     return self;
 }
 @end
+//  By: RETBOT
