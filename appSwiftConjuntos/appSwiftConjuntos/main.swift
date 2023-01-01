@@ -4,7 +4,7 @@
 //
 //  Created by Guest User on 16/11/22.
 //
-
+//  By: RETBOT
 import Foundation
 
 let conjuntoVacio:Set<Int> = []
@@ -31,7 +31,7 @@ print()
 //}else{
 //    print("Elemento no encontrado")
 //}
-
+//  By: RETBOT
 conjuntoA.insert(9)
 print(conjuntoA)
 
@@ -73,7 +73,7 @@ print("Frutas = \(frutas)")
 print("Frutas y verduras : \(frutasyVerduras)")
 
 // agregar : Union, interseccion, etc
-
+//  By: RETBOT
 if frutas.isSuperset(of: frutasyVerduras) {
     print("Frutas No es SUPERCONJUNTO DE FRUTAS Y VERDURAS")
 }else{
@@ -96,3 +96,4 @@ print("Frutas es disjunto de FRUTAS Y VERDURAS : ", frutas.isDisjoint(with: frut
 
 let animales : Set=["🐶","🐱","🐭","🐹","🐰","🦊","🐻","🐼","🐻‍❄️","🐨","🐯","🦁","🐮","🐷","🐸","🐵","🐔"]
 print("Frutas es disjunto de animales : ", frutas.isDisjoint(with: animales))
+//  By: RETBOT
