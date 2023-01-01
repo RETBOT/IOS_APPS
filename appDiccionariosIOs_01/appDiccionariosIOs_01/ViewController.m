@@ -3,7 +3,7 @@
 //  appDiccionariosIOs_01
 //
 //  Created by Roberto Esquivel Troncoso on 02/10/22.
-//
+////  By: RETBOT
 
 #import "ViewController.h"
 
@@ -32,7 +32,7 @@
     
     _lblBandera.text = [_diccionarioPaises objectForKey:bandera];
 }
-
+//  By: RETBOT
 - (IBAction)btnAyuda:(UIButton *)sender {
     _lblAyuda.text = [_diccionarioPaisesPista objectForKey:bandera];
 }
@@ -53,3 +53,4 @@
     }
 }
 @end
+//  By: RETBOT
