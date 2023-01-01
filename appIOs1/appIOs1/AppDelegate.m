@@ -4,7 +4,7 @@
 //
 //  Created by Guest User on 26/09/22.
 //
-
+//  By: RETBOT
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
@@ -36,5 +36,5 @@
     // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
 }
 
-
+//  By: RETBOT
 @end
