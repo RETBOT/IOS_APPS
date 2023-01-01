@@ -3,7 +3,7 @@
 //  appArchivosOC
 //
 //  Created by Usuario invitado on 11/10/22.
-//
+////  By: RETBOT
 
 #import <Foundation/Foundation.h>
 
@@ -31,4 +31,4 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%@",getContenidoDelArchivo);
     }
     return 0;
-}
+}//  By: RETBOT
