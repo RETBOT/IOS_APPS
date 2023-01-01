@@ -4,7 +4,7 @@
 //
 //  Created by Usuario invitado on 17/10/22.
 //
-
+//  By: RETBOT
 #import <Cocoa/Cocoa.h>
 
 NS_ASSUME_NONNULL_BEGIN
@@ -20,3 +20,4 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 NS_ASSUME_NONNULL_END
+//  By: RETBOT
