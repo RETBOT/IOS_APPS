@@ -4,7 +4,7 @@
 //
 //  Created by Guest User on 11/11/22.
 //
-
+//  By: RETBOT
 import Foundation
 
 class Clase {
@@ -17,7 +17,7 @@ class Clase {
         self.b = b
         Clase.c += 1
     }
-    
+    //  By: RETBOT
     func imprimir(){
         print("Valor a = \(a)")
         print("Valor b = \(b)")
@@ -36,3 +36,4 @@ print("Valor de a = \(objeto.a)")
 objetoAux.a = 1250
 
 print("Valor de a = \(objeto.a)")
+//  By: RETBOT
