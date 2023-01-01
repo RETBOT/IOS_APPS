@@ -4,7 +4,7 @@
 //
 //  Created by Guest User on 27/09/22.
 //
-
+//  By: RETBOT
 #import <Foundation/Foundation.h>
 #import <iostream>
 
@@ -34,7 +34,7 @@ int main(int argc, const char * argv[]) {
         /* InitWithFormat */
         str3 = [[NSString alloc] initWithFormat:@"%@ %@",str1,str2];
         NSLog(@"Using initWithFormat:   %@\n", str3 );
-        
+        //  By: RETBOT
         // Evaluacion
         // apicar o utilizar varios metodos de la clase NSString
         
@@ -68,7 +68,7 @@ int main(int argc, const char * argv[]) {
         str8 = [[NSString alloc] initWithUTF8String:str7.c_str()];
 
         NSString *str9 = [str5 stringByAppendingFormat:@" %@",str8];
-        
+        //  By: RETBOT
         NSLog(@" %@",str9);
         
         if([str8 hasPrefix:@"rifa"])
@@ -90,3 +90,4 @@ int main(int argc, const char * argv[]) {
     }
     return 0;
 }
+//  By: RETBOT
