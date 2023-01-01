@@ -5,7 +5,7 @@
 //  Created by Usuario invitado on 15/12/22.
 //
 import SwiftUI
- 
+ //  By: RETBOT
 struct ContentView: View {
      
     @StateObject var viewModel = MoviesViewModel() //MovieViewModel.swift
@@ -58,10 +58,11 @@ struct ContentView: View {
     }
     // End Body
 }
- 
+ //  By: RETBOT
  
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
+//  By: RETBOT
