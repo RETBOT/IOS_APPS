@@ -3,7 +3,7 @@
 //  appOrdenamientos
 //
 //  Created by Roberto Esquivel Troncoso on 17/09/22.
-//
+////  By: RETBOT
 
 #import "Ordenamiento.h"
 
@@ -27,7 +27,7 @@
                 interc++;
             }
         }
-    }
+    }//  By: RETBOT
     NSLog(@"No. de Comparaciones = %d",comp);
     NSLog(@"No. de Intercambios = %d",interc);
     
@@ -57,7 +57,7 @@
     NSLog(@"No. de Intercambios = %d",interc);
     
     return  [vecAux mutableCopy];
-}
+}//  By: RETBOT
 
 -(NSArray *) quickSortArrayAsc:(NSArray *)unsortedArray;
 {
@@ -89,7 +89,7 @@
         } else if (e != (count/2) && pivot == num) {
             [pivotArray addObject: @(num)];
         }
-    }
+    }//  By: RETBOT
  
     NSMutableArray *returnArray = [NSMutableArray array];
     [returnArray addObjectsFromArray: [self quickSortArrayAsc: smallerThanArray]];
@@ -155,7 +155,7 @@
             [returnArray addObject: [rightArray objectAtIndex:e++]];
         }
     }
- 
+ //  By: RETBOT
     while (i < [leftArray count]) {
         [returnArray addObject: [leftArray objectAtIndex:i++]];
     }
@@ -211,7 +211,7 @@
  
     return returnArray;
 }
-
+//  By: RETBOT
 - (NSArray *) mergeSortArrayDsc:(NSArray *)unsortedArray {
  
     // Time complexity: Worst case is: O(n * log(n)).
@@ -232,3 +232,4 @@
 
 
 @end
+//  By: RETBOT
