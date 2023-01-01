@@ -4,7 +4,7 @@
 //
 //  Created by Guest User on 25/11/22.
 //
-
+//  By: RETBOT
 import UIKit
 
 class ViewController: UIViewController {
@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         carrosPicker.delegate = self
         texto1.inputView = carrosPicker
     }
-    
+    //  By: RETBOT
     func crearToolBar(){
         let toolBar = UIToolbar()
         toolBar.sizeToFit()
@@ -46,7 +46,7 @@ class ViewController: UIViewController {
     
     //Fin viewController
 }
-
+//  By: RETBOT
 extension ViewController: UIPickerViewDelegate, UIPickerViewDataSource {
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
@@ -69,3 +69,4 @@ extension ViewController: UIPickerViewDelegate, UIPickerViewDataSource {
     //Tarea domingo 27: juego completo utilizando las opciones vistas en clase para el pickerview
 }
 
+//  By: RETBOT
