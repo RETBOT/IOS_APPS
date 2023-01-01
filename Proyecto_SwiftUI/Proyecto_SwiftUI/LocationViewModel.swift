@@ -3,7 +3,7 @@
 //  Proyecto_SwiftUI
 //
 //  Created by Usuario invitado on 14/12/22.
-//
+////  By: RETBOT
 
 import UIKit
 import CoreLocation
@@ -22,7 +22,7 @@ final class LocationViewModel: NSObject, ObservableObject, CLLocationManagerDele
     private let locationManager: CLLocationManager = .init()
     @Published var userLocation: MKCoordinateRegion = .init()
     @Published var userHasLocation: Bool = false
-    
+    //  By: RETBOT
     override init() {
         super.init()
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
@@ -46,7 +46,7 @@ final class LocationViewModel: NSObject, ObservableObject, CLLocationManagerDele
             print("Unhandled state")
         }
     }
-}
+}//  By: RETBOT
 
 extension LocationViewModel {
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
@@ -62,3 +62,4 @@ extension LocationViewModel {
     }
 }
 
+//  By: RETBOT
