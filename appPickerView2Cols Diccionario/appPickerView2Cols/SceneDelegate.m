@@ -4,7 +4,7 @@
 //
 //  Created by Guest User on 03/10/22.
 //
-
+//  By: RETBOT
 #import "SceneDelegate.h"
 
 @interface SceneDelegate ()
@@ -32,7 +32,7 @@
 - (void)sceneDidBecomeActive:(UIScene *)scene {
     // Called when the scene has moved from an inactive state to an active state.
     // Use this method to restart any tasks that were paused (or not yet started) when the scene was inactive.
-}
+}//  By: RETBOT
 
 
 - (void)sceneWillResignActive:(UIScene *)scene {
@@ -55,3 +55,4 @@
 
 
 @end
+//  By: RETBOT
