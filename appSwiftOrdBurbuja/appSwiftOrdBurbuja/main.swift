@@ -4,7 +4,7 @@
 //
 //  Created by Guest User on 11/11/22.
 //
-
+//  By: RETBOT
 import Foundation
 // 19, 23, 15, 100, 45
 func burbuja(vec: Array<Int>) -> Array<Int> {
@@ -42,7 +42,7 @@ func burbuja2(vec:inout Array<Int>){
     }
 }
 
-
+//  By: RETBOT
 var vec0 = [Int]()
 vec0.append(19)
 vec0.append(23)
@@ -54,7 +54,7 @@ print("Arreglo 1 = \(vec0)")
 burbuja2(vec: &vec0)
 print("Arreglo 1 Ordenado = \(vec0)")
 
-
+//  By: RETBOT
 var vecEnteros : [Int]=[]
 for _ in 1...5
 {
@@ -70,3 +70,4 @@ print(vecEnteros)
 print("Datos en orden inverso")
 burbuja2(vec: &vecEnteros)
 print(vecEnteros)
+//  By: RETBOT
