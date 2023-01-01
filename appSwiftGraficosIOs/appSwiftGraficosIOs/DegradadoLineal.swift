@@ -4,7 +4,7 @@
 //
 //  Created by Usuario invitado on 29/11/22.
 //
-
+//  By: RETBOT
 import UIKit
 
 class DegradadoLineal: UIView {
@@ -32,7 +32,7 @@ class DegradadoLineal: UIView {
         endPoint.y = rect.height
         
         canvas?.drawLinearGradient(gradiente!, start: startPoint, end: endPoint, options: .drawsBeforeStartLocation)
-        
+        //  By: RETBOT
      /*
         // Gradiente Radial
         let locationR : [CGFloat] = [0.0,0.5,1.0]
@@ -60,5 +60,5 @@ class DegradadoLineal: UIView {
         canvas?.strokePath()
     }
 
-
+//  By: RETBOT
 }
