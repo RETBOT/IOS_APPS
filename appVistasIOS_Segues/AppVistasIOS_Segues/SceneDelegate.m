@@ -3,7 +3,7 @@
 //  AppVistasIOS_Segues
 //
 //  Created by Usuario invitado on 28/10/22.
-//
+////  By: RETBOT
 
 #import "SceneDelegate.h"
 
@@ -28,7 +28,7 @@
     // The scene may re-connect later, as its session was not necessarily discarded (see `application:didDiscardSceneSessions` instead).
 }
 
-
+//  By: RETBOT
 - (void)sceneDidBecomeActive:(UIScene *)scene {
     // Called when the scene has moved from an inactive state to an active state.
     // Use this method to restart any tasks that were paused (or not yet started) when the scene was inactive.
@@ -52,6 +52,6 @@
     // Use this method to save data, release shared resources, and store enough scene-specific state information
     // to restore the scene back to its current state.
 }
-
+//  By: RETBOT
 
 @end
