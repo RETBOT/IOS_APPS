@@ -3,7 +3,7 @@
 //  appArreglosOC
 //
 //  Created by Guest User on 14/09/22.
-//
+////  By: RETBOT
 
 #import <Foundation/Foundation.h>
 @interface Ordenamiento : NSObject
@@ -39,7 +39,7 @@
 }
 
 @end
-
+//  By: RETBOT
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
@@ -86,7 +86,7 @@ int main(int argc, const char * argv[]) {
         //for (int i=0; i< [arregloM1 count]; i++) {
             NSNumber *numero = [[NSNumber alloc] initWithInt:arc4random_uniform(900)+100];
             [arregloM1 addObject:numero];
-        }
+        }//  By: RETBOT
         
         //for (int i=0; i<arregloM1.count; i++) {
             //NSLog(@"Numero [%d] = %@",(i+1),arregloM1[i]);
@@ -113,3 +113,4 @@ int main(int argc, const char * argv[]) {
     
     return 0;
 }
+//  By: RETBOT
