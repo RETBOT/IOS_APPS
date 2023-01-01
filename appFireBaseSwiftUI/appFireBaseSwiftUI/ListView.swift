@@ -3,7 +3,7 @@
 //  appFireBaseSwiftUI
 //
 //  Created by Guest User on 12/12/22.
-//
+////  By: RETBOT
 
 import SwiftUI
 
@@ -29,7 +29,7 @@ struct ListView: View {
             .sheet(isPresented: $showPopup){
                 agregarGordita()
             }
-        }
+        }//  By: RETBOT
         NavigationView {
             List(dataManager.pedido, id: \.id) { pedido in
                 Text(pedido.nombre)
@@ -53,5 +53,5 @@ struct ListView: View {
 struct ListView_Previews: PreviewProvider {
     static var previews: some View {
         ListView()
-    }
+    }//  By: RETBOT
 }
