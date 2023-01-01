@@ -4,7 +4,7 @@
 //
 //  Created by Usuario invitado on 01/12/22.
 //
-
+//  By: RETBOT
 import UIKit
 import AVFoundation
 
@@ -31,7 +31,7 @@ class ViewController: UIViewController {
                 print("NO SE ENCONTRO EL ARCHIVO")
             }
             break
-        case 2:
+        case 2://  By: RETBOT
             let pathSound = Bundle.main.path(forResource: "teclado", ofType: "wav")!
             let url = URL(fileURLWithPath: pathSound)
             do{
@@ -69,5 +69,5 @@ class ViewController: UIViewController {
     @IBAction func btnDetener(_ sender: UIButton) {
     }
     
-}
+}//  By: RETBOT
 
