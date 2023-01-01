@@ -3,7 +3,7 @@
 //  appPeliculasSwift
 //
 //  Created by Usuario invitado on 15/12/22.
-//
+////  By: RETBOT
 import SwiftUI
  
 struct ContentView: View {
@@ -31,7 +31,7 @@ struct ContentView: View {
              .font(.subheadline)
          }
        }
-    }
+    }//  By: RETBOT
      
     var body: some View {
       NavigationView {
@@ -61,7 +61,7 @@ struct ContentView: View {
     }
     // End Body
 }
- 
+ //  By: RETBOT
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
