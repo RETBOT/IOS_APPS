@@ -4,7 +4,7 @@
 //
 //  Created by Usuario invitado on 29/11/22.
 //
-
+//  By: RETBOT
 import UIKit
 
 class Graficos: UIView {
@@ -30,7 +30,7 @@ class Graficos: UIView {
         // Drawing code
         let canvas = UIGraphicsGetCurrentContext()
         canvas?.setLineWidth(1.0)
-
+//  By: RETBOT
         // Gradientes
         let posicion : [CGFloat] = [0.0,0.25,0.75]
         
@@ -87,7 +87,7 @@ class Graficos: UIView {
             midy = rect.height/2
             var y = rect.height
             
-            
+          //  By: RETBOT  
             for x in stride(from: midx-150, through: midx, by: 10) { // x = midx-250; x <= midx; x+=10
                 y = midy - (x-60) * 0.4
                 canvas?.move(to: CGPoint(x: x, y: midy))
@@ -119,7 +119,7 @@ class Graficos: UIView {
 
     }
 
-    
+    //  By: RETBOT
     
     @IBOutlet weak var btnDibujar: UIButton!
     
@@ -138,6 +138,6 @@ class Graficos: UIView {
     @IBAction func segmented(_ sender: UISegmentedControl) {
         
     }
-    
+    //  By: RETBOT
     
 }
