@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+//  By: RETBOT
 struct EmojiFrutas : Identifiable
 {
     let id = UUID()
@@ -51,7 +51,7 @@ private let emojiList: [EmojiFrutas]  = [
 //        }
 //    }
 //}
-
+//  By: RETBOT
 struct ContentView: View {
     var body: some View {
         NavigationView {
@@ -81,7 +81,7 @@ struct emojiCirculoVista: View {
         }
     }
 }
-
+//  By: RETBOT
 struct detallesVista: View {
     let emojiFruta: EmojiFrutas
     var body: some View {
@@ -106,3 +106,4 @@ struct ContentView_Previews: PreviewProvider {
     
     }
 }
+//  By: RETBOT
