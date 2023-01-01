@@ -4,14 +4,14 @@
 //
 //  Created by Usuario invitado on 24/11/22.
 //
-
+//  By: RETBOT
 import UIKit
 
 class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
 
     @IBOutlet weak var pickerViewNumero: UIPickerView!
-    
+    //  By: RETBOT
     @IBOutlet weak var lblIntentos: UILabel!
     @IBOutlet weak var lblMsg: UILabel!
     @IBOutlet weak var lblMsg2: UILabel!
@@ -47,7 +47,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         btnVerificar.isEnabled = true
         lblnivel.text = String(nivel)
     }
-    
+    //  By: RETBOT
     func numRandomsLvl(){
         switch (puntuacion) {
         case 0...10:
@@ -84,7 +84,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
             numRandom = Int.random(in: 0...9)
         }
     }
-    
+    //  By: RETBOT
     func alerta(){
         let alerta = UIAlertController(title: "Mensaje", message: "Intentalo otra vez", preferredStyle: .alert)
         
@@ -135,7 +135,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
        
         lblnivel.text = String(nivel);
     }
-    
+    //  By: RETBOT
     
     func lvlMsg(){
         switch (puntuacion) {
@@ -182,7 +182,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         pickerViewNumero.dataSource = self
     }
 
-
+//  By: RETBOT
     @IBAction func btnVerificar(_ sender: UIButton) {
         lvlMsg()
             if numeroSeleccionado == numRandom {
@@ -218,7 +218,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
           lvl()
         }
     }
-
+//  By: RETBOT
     @IBAction func btnOtro(_ sender: UIButton) {
         inicializar ()
     }
@@ -241,7 +241,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         let numSelec = lvlValores[pickerView.selectedRow(inComponent: 0)]
         numeroSeleccionado = Int(numSelec)!
-        
+        //  By: RETBOT
     }
 }
 
