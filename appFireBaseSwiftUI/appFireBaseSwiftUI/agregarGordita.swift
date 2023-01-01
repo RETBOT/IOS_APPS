@@ -4,7 +4,7 @@
 //
 //  Created by Guest User on 12/12/22.
 //
-
+//  By: RETBOT
 import SwiftUI
 
 struct agregarGordita: View {
@@ -28,3 +28,4 @@ struct agregarGordita_Previews: PreviewProvider {
         agregarGordita()
     }
 }
+//  By: RETBOT
