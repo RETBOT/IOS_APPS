@@ -3,7 +3,7 @@
 //  Matematicas
 //
 //  Created by Guest User on 02/09/22.
-//
+////  By: RETBOT
 
 #import "Matematicas.h"
 #import <math.h>
@@ -37,7 +37,7 @@
         fac = fac * i;
     }
     return fac;
-    
+    //  By: RETBOT
 }
 
 - (NSInteger) facorialR: (NSInteger)a{
@@ -66,7 +66,7 @@
     }
     return 0;
 }
-
+//  By: RETBOT
 - (void) suma:(NSNumber *)a conB:(NSNumber *)b resultado:(NSNumber *)resultado{
     float number1 = [a floatValue];
     float number2 = [b floatValue];
@@ -88,3 +88,4 @@
 }
 
 @end
+//  By: RETBOT
