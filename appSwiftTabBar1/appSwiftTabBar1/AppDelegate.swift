@@ -4,14 +4,14 @@
 //
 //  Created by Guest User on 06/12/22.
 //
-
+//  By: RETBOT
 import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
-
+//  By: RETBOT
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
@@ -33,4 +33,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-
+//  By: RETBOT
