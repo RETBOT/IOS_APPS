@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  App3D1
 //
-//  Created by Usuario invitado on 02/12/22.
+//  Created by Usuario invitado on 02/12/22. //  By: RETBOT
 //
 
 import SwiftUI
@@ -26,7 +26,7 @@ struct ARViewContainer: UIViewRepresentable {
         // Add the box anchor to the scene
         arView.scene.anchors.append(boxAnchor)
         
-        return arView
+        return arView//  By: RETBOT
         
     }
     
@@ -41,3 +41,4 @@ struct ContentView_Previews : PreviewProvider {
     }
 }
 #endif
+//  By: RETBOT
