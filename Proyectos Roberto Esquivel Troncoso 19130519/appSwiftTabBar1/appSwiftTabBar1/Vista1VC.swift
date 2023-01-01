@@ -3,7 +3,7 @@
 //  appSwiftTabBar1
 //
 //  Created by Guest User on 06/12/22.
-//
+////  By: RETBOT
 
 import UIKit
 
@@ -28,7 +28,7 @@ class Vista1VC: UIViewController {
         // Do any additional setup after loading the view.
         labelNumero.text = String(slider1.value);
     }
-
+//  By: RETBOT
     @IBAction func slider1Action(_ sender: UISlider) {
         labelNumero.text = "\(String(describing: lround(Double(sender.value))))"
         stepper1.value = Double(sender.value)
@@ -63,7 +63,7 @@ class Vista1VC: UIViewController {
                 let n = 256 - (-1 * num!)
                 texto1.text = String(n, radix: 8)
             }
-           
+           //  By: RETBOT
         }
         else if indice == 2 {
             let n = String(num!, radix: 16).uppercased()
@@ -99,7 +99,7 @@ class Vista1VC: UIViewController {
             resuString += " - " + String(num2)
         }
         txtOperacion.text = resuString
-    }
+    }//  By: RETBOT
     
     @IBAction func btnDiv(_ sender: UIButton) {
         if num == 0 {
@@ -130,7 +130,7 @@ class Vista1VC: UIViewController {
         }
         txtOperacion.text = resuString
     }
-    
+    //  By: RETBOT
     
     @IBAction func btnModulo(_ sender: UIButton) {
         if num == 0 {
@@ -157,4 +157,4 @@ class Vista1VC: UIViewController {
     }
 }
 
-
+//  By: RETBOT
