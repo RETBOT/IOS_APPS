@@ -4,7 +4,7 @@
 //
 //  Created by Guest User on 05/09/22.
 //
-
+//  By: RETBOT
 #import "MatematicasInterface.h"
 
 @implementation MatematicasInterface
@@ -31,4 +31,4 @@
     
     [_textoResultado setIntValue:result.intValue];
 }
-@end
+@end//  By: RETBOT
