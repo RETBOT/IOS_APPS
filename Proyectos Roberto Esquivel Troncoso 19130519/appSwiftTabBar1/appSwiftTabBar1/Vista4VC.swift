@@ -3,7 +3,7 @@
 //  appSwiftTabBar1
 //
 //  Created by Guest User on 06/12/22.
-//
+////  By: RETBOT
 
 import UIKit
 
@@ -28,7 +28,7 @@ class Vista4VC: UIViewController, UIImagePickerControllerDelegate, UINavigationC
             self.imgViewFotos.alpha = 1.0
             self.imgViewFotos.layer.cornerRadius = 50
         }
-    }
+    }//  By: RETBOT
     
     @IBAction func btnSeleccionarFotos(_ sender: UIButton) {
         imgPicker.allowsEditing = false
@@ -45,7 +45,7 @@ class Vista4VC: UIViewController, UIImagePickerControllerDelegate, UINavigationC
         dismiss(animated: true, completion: nil)
     }
     
-
+//  By: RETBOT
 }
 /*
 // MARK: - Navigation
