@@ -1,4 +1,4 @@
-//
+////  By: RETBOT
 //  ViewController.m
 //  appGraficosStoryBoardVistas
 //
@@ -8,7 +8,7 @@
 #import "ViewController.h"
 
 @implementation ViewController
-
+//  By: RETBOT
 - (void)viewDidLoad {
     [super viewDidLoad];
 
@@ -22,3 +22,4 @@
     // Update the view, if already loaded.
 }
 @end
+//  By: RETBOT
