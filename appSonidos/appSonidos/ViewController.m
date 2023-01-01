@@ -3,7 +3,7 @@
 //  appSonidos
 //
 //  Created by Usuario invitado on 10/10/22.
-//
+////  By: RETBOT
 
 #import "ViewController.h"
 #import <AVFoundation/AVFoundation.h>
@@ -16,7 +16,7 @@
     NSInteger volumen;
 }
 @end
-
+//  By: RETBOT
 @implementation ViewController
 
 - (void)viewDidLoad {
@@ -54,7 +54,7 @@
 
 - (NSInteger)pickerView:(nonnull UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component {
     return canciones.count;
-    
+    //  By: RETBOT
 }
 
 - (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component{
@@ -77,3 +77,4 @@
 }
 
 @end
+//  By: RETBOT
