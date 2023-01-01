@@ -4,7 +4,7 @@
 //
 //  Created by Usuario invitado on 30/08/22.
 //
-
+//  By: RETBOT
 #import <Foundation/Foundation.h>
 #import "Punto.h"
 
@@ -27,7 +27,7 @@ int main(int argc, const char * argv[]) {
         
         punto1.x = x1;
         punto1.y = y1;
-        
+        //  By: RETBOT
         [punto2 setX:x2 y_Y : y2];
         
         Punto *pResul = [Punto new];
@@ -52,3 +52,4 @@ int main(int argc, const char * argv[]) {
     }
     return 0;
 }
+//  By: RETBOT
