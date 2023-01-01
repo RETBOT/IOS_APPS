@@ -15,11 +15,11 @@ class CMatematicas {
     static func Sumar (n1: Double, n2: Double) -> Double {
         let result = n1 + n2
         return result
-    }
+    }//  By: RETBOT
     // Resta
     static func Resta (n1: Int, n2: Int) -> Int {
         return n1 - n2
-    }//  By: RETBOT
+    }
     static func Resta (n1: Double, n2: Double) -> Double {
         return n1 - n2
     }
@@ -41,5 +41,4 @@ class CMatematicas {
     static func Mod (n1: Int, n2: Int) -> Int {
         return n1 % n2
     }
-}
-//  By: RETBOT
+}//  By: RETBOT
