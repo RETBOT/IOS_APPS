@@ -3,7 +3,7 @@
 //  appGraficosIPhone
 //
 //  Created by Usuario invitado on 01/11/22.
-//
+////  By: RETBOT
 
 #import "Graficos.h"
 
@@ -62,7 +62,7 @@
     //CGContextAddLineToPoint(context,x2,y2);
     
    // CGContextStrokePath(context);
-    
+    //  By: RETBOT
     // Arco con curva de Bezzier
     /*CGContextMoveToPoint(context, 10, 200);
     CGContextAddCurveToPoint(context, 0, 50, 300, 200, 300, 400);
@@ -94,7 +94,7 @@
     // estado 1 = Linea
     // estado 2 = rombo
     switch (self.segmentControl.selectedSegmentIndex) {
-        case 0:
+        case 0://  By: RETBOT
             // Linea
             [_txtX1 setEnabled:true];
             [_txtY1 setEnabled:true];
@@ -179,7 +179,7 @@
             break;
     }
 }
-
+//  By: RETBOT
 - (IBAction)btnDibujo:(UIButton *)sender {
     x1 = [_txtX1.text integerValue];
     y1 = [_txtY1.text integerValue];
@@ -229,7 +229,7 @@
     
     CGContextStrokePath(context);
 }
-
+//  By: RETBOT
 -(void) rectangulo_X1 :(NSInteger)x1 Y1:(NSInteger)y1  X2:(NSInteger)x2 Y2:(NSInteger)y2{
     // Drawing code
     CGContextRef context = UIGraphicsGetCurrentContext();
@@ -292,5 +292,5 @@
     CGContextAddCurveToPoint(context, xControl, yControl, x2Control, y2Control, x2, y2);
     CGContextStrokePath(context);
 }
-@end
+@end//  By: RETBOT
     
