@@ -3,12 +3,12 @@
 //  JuegoCartas_V1
 //
 //  Created by Roberto Esquivel Troncoso on 23/10/22.
-//
+////  By: RETBOT
 
 #import "JuegoCarta.h"
 
 @implementation JuegoCarta
-
+//  By: RETBOT
 -(int)match:(NSArray *)otherCards{
     int score = 0;
     if([otherCards count] == 1){
@@ -36,7 +36,7 @@
     if([[JuegoCarta validSuits] containsObject:suit]){
         _suit = suit;
     }
-}
+}//  By: RETBOT
 
 -(NSString *)suit{
     return  _suit ? _suit : @"?";
@@ -54,3 +54,4 @@
 }
 
 @end
+//  By: RETBOT
