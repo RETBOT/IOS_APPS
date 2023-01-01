@@ -4,7 +4,7 @@
 //
 //  Created by Usuario invitado on 01/12/22.
 //
-
+//  By: RETBOT
 import UIKit
 
 @main
@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         return true
     }
-
+//  By: RETBOT
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
@@ -32,5 +32,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
-}
+}//  By: RETBOT
 
