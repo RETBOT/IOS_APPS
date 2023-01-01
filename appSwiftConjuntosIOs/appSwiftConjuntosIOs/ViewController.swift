@@ -3,12 +3,12 @@
 //  appSwiftConjuntosIOs
 //
 //  Created by Usuario invitado on 22/11/22.
-//
+////  By: RETBOT
 
 import UIKit
 
 class ViewController: UIViewController {
-    
+    //  By: RETBOT
     @IBOutlet weak var txtConjuntoA: UITextField!
     @IBOutlet weak var txtConjuntoB: UITextField!
     @IBOutlet weak var segmentoConjunto: UISegmentedControl!
@@ -92,7 +92,7 @@ class ViewController: UIViewController {
         
         
     }
-
+//  By: RETBOT
     func deStringAConjunto(conjunto:Set<Int>, cadena: String) -> Set<Int>{
         var conjuntoAux:Set<Int> = []
         var indice = 0
@@ -141,7 +141,7 @@ class ViewController: UIViewController {
         conjuntoAux.remove(" ")
         return conjuntoAux
     }
-}
+}//  By: RETBOT
 
 /*
  var indice = 0
@@ -166,3 +166,4 @@ class ViewController: UIViewController {
      }
  }
  */
+//  By: RETBOT
