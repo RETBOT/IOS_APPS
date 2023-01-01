@@ -4,7 +4,7 @@
 //
 //  Created by Guest User on 06/12/22.
 //
-
+//  By: RETBOT
 import UIKit
 
 class Graficos2D: UIView {
@@ -43,7 +43,7 @@ class Graficos2D: UIView {
         let colores = [UIColor.brown.cgColor, UIColor.purple.cgColor, UIColor.orange.cgColor, UIColor.yellow.cgColor]
         let colorSpace1 = CGColorSpaceCreateDeviceRGB()
         let gradiente = CGGradient(colorsSpace: colorSpace1, colors: colores as CFArray, locations: posicion)
-        
+        //  By: RETBOT
         var startPoint = CGPoint()
         var endPoint = CGPoint()
         startPoint.x = 0
@@ -105,7 +105,7 @@ class Graficos2D: UIView {
                 canvas?.addLine(to: CGPoint(x: midx, y: y))
                 canvas?.strokePath()
             }
-     
+     //  By: RETBOT
             for x in stride(from: midx+250, through: midx, by: -10) { //x = midx+250; x >= midx; x-=10
                 y = midy + 100 - (x-midx) * 0.4
                 canvas?.move(to: CGPoint(x: x, y: midy))
@@ -121,7 +121,7 @@ class Graficos2D: UIView {
             }
         }
     }
-    
+    //  By: RETBOT
     @IBOutlet weak var btnDibujar: UIButton!
     
     @IBAction func btnDibujar(_ sender: UIButton) {
@@ -135,7 +135,7 @@ class Graficos2D: UIView {
         self.setNeedsDisplay()
     
     }
-    
+    //  By: RETBOT
     @IBAction func segmented(_ sender: UISegmentedControl) {
         
     }
