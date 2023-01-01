@@ -3,7 +3,7 @@
 //  appPickerView2Cols
 //
 //  Created by Guest User on 03/10/22.
-//
+////  By: RETBOT
 
 #import "AppDelegate.h"
 
@@ -19,7 +19,7 @@
     return YES;
 }
 
-
+//  By: RETBOT
 #pragma mark - UISceneSession lifecycle
 
 
@@ -37,4 +37,4 @@
 }
 
 
-@end
+@end//  By: RETBOT
