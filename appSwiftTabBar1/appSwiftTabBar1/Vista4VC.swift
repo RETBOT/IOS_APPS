@@ -4,7 +4,7 @@
 //
 //  Created by Guest User on 06/12/22.
 //
-
+//  By: RETBOT
 import UIKit
 
 class Vista4VC: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
@@ -29,7 +29,7 @@ class Vista4VC: UIViewController, UIImagePickerControllerDelegate, UINavigationC
             self.imgViewFotos.layer.cornerRadius = 50
         }
     }
-    
+    //  By: RETBOT
     @IBAction func btnSeleccionarFotos(_ sender: UIButton) {
         imgPicker.allowsEditing = false
         imgPicker.sourceType = .photoLibrary //.camera
@@ -56,3 +56,4 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     // Pass the selected object to the new view controller.
 }
 */
+//  By: RETBOT
