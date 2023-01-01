@@ -3,7 +3,7 @@
 //  appPickerView2Cols
 //
 //  Created by Guest User on 03/10/22.
-//
+////  By: RETBOT
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
@@ -16,3 +16,4 @@ int main(int argc, char * argv[]) {
     }
     return UIApplicationMain(argc, argv, nil, appDelegateClassName);
 }
+//  By: RETBOT
