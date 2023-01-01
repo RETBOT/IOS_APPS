@@ -2,7 +2,7 @@
 //  Deck.m
 //  JuegoCartas_V1
 //
-//  Created by Roberto Esquivel Troncoso on 23/10/22.
+//  Created by Roberto Esquivel Troncoso on 23/10/22.//  By: RETBOT
 //
 
 #import "Deck.h"
@@ -33,4 +33,4 @@
     }
     return randomCard;
 }
-@end
+@end//  By: RETBOT
