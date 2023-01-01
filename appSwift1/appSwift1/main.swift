@@ -4,7 +4,7 @@
 //
 //  Created by Usuario invitado on 07/11/22.
 //
-
+//  By: RETBOT
 import Foundation
 
 print("Hello, World!")
@@ -62,7 +62,7 @@ let rangoAbierto = 5...
 print(rangoAbierto.contains(7))
 print(rangoAbierto.contains(4))
 print(rangoAbierto.contains(100000000))
-
+//  By: RETBOT
 let numInt64: UInt64 = 9223372036854775807
 print(rangoAbierto.contains(147483647))
 
@@ -95,7 +95,7 @@ var menor = array[0]
     let funcion = mayorMenor(array: [25,60,12,37,45])
     print("Valor mayor: \(funcion.mayor) ")
     print(mayor)
-}
+}//  By: RETBOT
 var num = 10
 let facto = factorial(n: num)
 print("Factorial de \(num) = \(facto)")
@@ -120,7 +120,7 @@ func factorial ( n: Double) -> Double{
     }
     return fact
 }
-
+//  By: RETBOT
 print(exp(1.0))
 
 // Diseñe e implemente un meto do para calcular el valor de la constante de euler
@@ -134,4 +134,4 @@ func euler() -> Double{
     return serie
 }
 
-
+//  By: RETBOT
