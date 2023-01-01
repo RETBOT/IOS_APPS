@@ -3,13 +3,13 @@
 //  appSwiftTabBar1
 //
 //  Created by Guest User on 06/12/22.
-//
+////  By: RETBOT
 
 import UIKit
 
 class Vista2VC: UIViewController {
 
-    
+    //  By: RETBOT
     @IBOutlet weak var txtConjuntoA: UITextField!
     @IBOutlet weak var txtConjuntoB: UITextField!
     @IBOutlet weak var segmentoConjunto: UISegmentedControl!
@@ -43,7 +43,7 @@ class Vista2VC: UIViewController {
         }
         
      }
-    
+    //  By: RETBOT
     @IBAction func txtConjuntoBAction(_ sender: UITextField) {
         txtConjuntoB.becomeFirstResponder()
         
@@ -118,7 +118,7 @@ class Vista2VC: UIViewController {
             }
         }
         return conjuntoAux
-    }
+    }//  By: RETBOT
     func deStringAConjuntoStr(conjunto:Set<String>, cadena: String) -> Set<String>{
         var conjuntoAux:Set<String> = []
         var indice = 0
@@ -143,7 +143,7 @@ class Vista2VC: UIViewController {
         return conjuntoAux
     }
     
-
+//  By: RETBOT
     /*
     // MARK: - Navigation
 
