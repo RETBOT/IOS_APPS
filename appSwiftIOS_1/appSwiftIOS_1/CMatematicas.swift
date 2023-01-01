@@ -4,7 +4,7 @@
 //
 //  Created by Guest User on 16/11/22.
 //
-
+//  By: RETBOT
 import Foundation
 class CMatematicas {
     // Suma
@@ -19,7 +19,7 @@ class CMatematicas {
     // Resta
     static func Resta (n1: Int, n2: Int) -> Int {
         return n1 - n2
-    }
+    }//  By: RETBOT
     static func Resta (n1: Double, n2: Double) -> Double {
         return n1 - n2
     }
@@ -42,3 +42,4 @@ class CMatematicas {
         return n1 % n2
     }
 }
+//  By: RETBOT
