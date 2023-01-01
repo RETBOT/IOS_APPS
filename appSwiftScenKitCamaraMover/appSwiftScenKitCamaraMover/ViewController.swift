@@ -4,7 +4,7 @@
 //
 //  Created by Guest User on 05/12/22.
 //
-
+//  By: RETBOT
 import UIKit
 import SceneKit
 
@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         tipoLuz = "ambient"
         dibujaCubo() // dibuja Objeto 3D
     }
-
+//  By: RETBOT
     // LUZ
     @IBAction func sliderLuzX(_ sender: UISlider) {
         sliderLuzX.value = sender.value
@@ -76,7 +76,7 @@ class ViewController: UIViewController {
         dibujaCubo()
     }
     
-    
+    //  By: RETBOT
     @IBAction func segmentoFiguras(_ sender: UISegmentedControl) {
         let indice : Int = segmentoLuces.selectedSegmentIndex
         
@@ -120,7 +120,7 @@ class ViewController: UIViewController {
         luzNodo.light = luz
         // Establecer los max y mins de los sliders
         luzNodo.position = SCNVector3(x: sliderLuzX.value, y:sliderLuzY.value, z:sliderLuzZ.value)
-        
+        //  By: RETBOT
         //Cubo
         var geometriaCubo = SCNBox(width: 1.0, height: 1.0, length: 1.0, chamferRadius: 0.2)
         // Piramide
@@ -173,4 +173,4 @@ class ViewController: UIViewController {
     }
     
 }
-
+//  By: RETBOT
