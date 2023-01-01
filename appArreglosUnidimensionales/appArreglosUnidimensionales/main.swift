@@ -2,7 +2,7 @@
 //  main.swift
 //  appArreglosUnidimensionales
 //
-//  Created by Usuario invitado on 09/11/22.
+//  Created by Usuario invitado on 09/11/22.//  By: RETBOT
 //
 
 import Foundation
@@ -41,7 +41,7 @@ var k = 0
 while k < vec3Uvec4.count {
     print("Vec[\(k)] = \(vec3Uvec4[k])")
     k += 1
-}
+}//  By: RETBOT
 
 vec3Uvec4.reverse()
 print(vec3Uvec4)
@@ -51,7 +51,7 @@ vec3Uvec4.forEach{
     print($0)
 }
 
-print("Vec 3")
+print("Vec 3")//  By: RETBOT
 vec3.forEach{
     num in print(num)
 }
