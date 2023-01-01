@@ -4,7 +4,7 @@
 //
 //  Created by Usuario invitado on 15/12/22.
 //
-
+//  By: RETBOT
 import SwiftUI
 import Firebase
 @main
@@ -19,3 +19,4 @@ struct appPeliculasSwiftApp: App {
             }
         }
 }
+//  By: RETBOT
