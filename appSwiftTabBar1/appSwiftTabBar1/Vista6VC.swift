@@ -4,7 +4,7 @@
 //
 //  Created by Guest User on 12/12/22.
 //
-
+//  By: RETBOT
 import UIKit
 import SceneKit
 
@@ -35,7 +35,7 @@ class Vista6VC: UIViewController {
 
     func Malla(){
         let sceneView = SCNView(frame: self.imageView.frame)
-        
+        //  By: RETBOT
         self.imageView.addSubview(sceneView)
         let scene = SCNScene()
         sceneView.scene = scene
@@ -77,7 +77,7 @@ class Vista6VC: UIViewController {
               let sequence = SCNAction.sequence([moveUp,moveDown])
 
               let repeatedSequence = SCNAction.repeatForever(sequence)
-
+//  By: RETBOT
               capsuleNode.runAction(repeatedSequence)
 
               x += 2.0 * Float(capsuleRadius)
@@ -113,7 +113,7 @@ class Vista6VC: UIViewController {
               capsuleNode.runAction(repeatedSequence)
 
               x += 2.0 * Float(capsuleRadius)
-
+//  By: RETBOT
           }
 
             z += 2.0 * Float(capsuleRadius)
@@ -133,3 +133,4 @@ class Vista6VC: UIViewController {
     */
 
 }
+//  By: RETBOT
