@@ -4,7 +4,7 @@
 //
 //  Created by Usuario invitado on 29/08/22.
 //
-
+//  By: RETBOT
 #import "Ejemplo.h"
 
 @implementation SampleClass
@@ -22,3 +22,4 @@
 }
 
 @end
+//  By: RETBOT
