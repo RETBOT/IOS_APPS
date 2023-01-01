@@ -4,7 +4,7 @@
 //
 //  Created by Guest User on 06/12/22.
 //
-
+//  By: RETBOT
 import UIKit
 
 class Vista2VC: UIViewController {
@@ -30,8 +30,7 @@ class Vista2VC: UIViewController {
         
         opc = indice
     }
-    
-    
+    //  By: RETBOT
     @IBAction func txtConjuntoAAction(_ sender: UITextField) {
         txtConjuntoA.becomeFirstResponder()
         
@@ -92,7 +91,7 @@ class Vista2VC: UIViewController {
         }
         
         
-    }
+    }//  By: RETBOT
 
     func deStringAConjunto(conjunto:Set<Int>, cadena: String) -> Set<Int>{
         var conjuntoAux:Set<Int> = []
@@ -137,7 +136,7 @@ class Vista2VC: UIViewController {
                 conjuntoAux.insert(num)
                 num = ""
                 
-            }
+            }//  By: RETBOT
         }
         conjuntoAux.remove(" ")
         return conjuntoAux
@@ -155,3 +154,4 @@ class Vista2VC: UIViewController {
     */
 
 }
+//  By: RETBOT
