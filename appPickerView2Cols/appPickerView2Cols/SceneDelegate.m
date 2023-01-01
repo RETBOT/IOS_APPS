@@ -4,7 +4,7 @@
 //
 //  Created by Guest User on 03/10/22.
 //
-
+//  By: RETBOT
 #import "SceneDelegate.h"
 
 @interface SceneDelegate ()
@@ -27,7 +27,7 @@
     // Release any resources associated with this scene that can be re-created the next time the scene connects.
     // The scene may re-connect later, as its session was not necessarily discarded (see `application:didDiscardSceneSessions` instead).
 }
-
+//  By: RETBOT
 
 - (void)sceneDidBecomeActive:(UIScene *)scene {
     // Called when the scene has moved from an inactive state to an active state.
@@ -45,7 +45,7 @@
     // Called as the scene transitions from the background to the foreground.
     // Use this method to undo the changes made on entering the background.
 }
-
+//  By: RETBOT
 
 - (void)sceneDidEnterBackground:(UIScene *)scene {
     // Called as the scene transitions from the foreground to the background.
@@ -55,3 +55,4 @@
 
 
 @end
+//  By: RETBOT
