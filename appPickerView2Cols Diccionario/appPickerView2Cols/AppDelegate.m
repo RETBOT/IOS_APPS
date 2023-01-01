@@ -3,7 +3,7 @@
 //  appPickerView2Cols
 //
 //  Created by Guest User on 03/10/22.
-//
+////  By: RETBOT
 
 #import "AppDelegate.h"
 
@@ -17,7 +17,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     return YES;
-}
+}//  By: RETBOT
 
 
 #pragma mark - UISceneSession lifecycle
@@ -38,3 +38,4 @@
 
 
 @end
+//  By: RETBOT
