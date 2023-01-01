@@ -4,7 +4,7 @@
 //
 //  Created by Usuario invitado on 02/12/22.
 //
-
+//  By: RETBOT
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
@@ -24,7 +24,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This occurs shortly after the scene enters the background, or when its session is discarded.
         // Release any resources associated with this scene that can be re-created the next time the scene connects.
         // The scene may re-connect later, as its session was not necessarily discarded (see `application:didDiscardSceneSessions` instead).
-    }
+    }//  By: RETBOT
 
     func sceneDidBecomeActive(_ scene: UIScene) {
         // Called when the scene has moved from an inactive state to an active state.
@@ -49,4 +49,4 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
 }
-
+//  By: RETBOT
