@@ -4,7 +4,7 @@
 //
 //  Created by Roberto Esquivel Troncoso on 17/09/22.
 //
-
+//  By: RETBOT
 #import "Busqueda.h"
 
 @implementation Busqueda
@@ -27,7 +27,7 @@
 }
  
 - (Node *) createBinaryTree:(NSArray *)binaryTreeRawData andRoot:(Node *)root {
- 
+ //  By: RETBOT
     // Complexities of creating a binary tree.
     // Time complexity: O(n * log(n))
     // * at least one full interation of the array to build the tree, so (n) up front.
@@ -42,7 +42,7 @@
     }
     return root;
 }
-
+//  By: RETBOT
 - (int) arbolBinario:(int)value atLevel:(int)level onTree:(Node *)tree {
     // Complexities of searching a binary tree.
     // Time complexity: O(log(n))
@@ -64,5 +64,5 @@
     }
     return levelValue;
 }
-
+//  By: RETBOT
 @end
