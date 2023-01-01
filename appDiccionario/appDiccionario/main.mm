@@ -3,7 +3,7 @@
 //  appDiccionario
 //
 //  Created by Guest User on 28/09/22.
-//
+////  By: RETBOT
 
 #import <Foundation/Foundation.h>
 #import <iostream>
@@ -87,7 +87,7 @@ int main(int argc, const char * argv[]) {
                 NSLog(@"Clave = %@, Valor = %@", key, valor);
             }
         }
-        */
+        *///  By: RETBOT
         
         NSDictionary *diccionarioPaises;
         diccionarioPaises = [NSDictionary dictionaryWithObjectsAndKeys:
@@ -129,7 +129,7 @@ int main(int argc, const char * argv[]) {
             string cade = "";
             cout<<"Pais : ";
             scanf("%s",cadAux);
-            
+            //  By: RETBOT
             NSString *pais = [NSString stringWithCString:cadAux encoding:NSASCIIStringEncoding];
             pais = [pais lowercaseString];
                 for(NSString *cad in diccionarioPaises.allKeys){
@@ -172,4 +172,4 @@ int main(int argc, const char * argv[]) {
     }
     
     return 0;
-}
+}//  By: RETBOT
