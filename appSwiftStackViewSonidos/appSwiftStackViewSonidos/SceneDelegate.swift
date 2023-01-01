@@ -4,7 +4,7 @@
 //
 //  Created by Usuario invitado on 01/12/22.
 //
-
+//  By: RETBOT
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
@@ -30,7 +30,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Called when the scene has moved from an inactive state to an active state.
         // Use this method to restart any tasks that were paused (or not yet started) when the scene was inactive.
     }
-
+//  By: RETBOT
     func sceneWillResignActive(_ scene: UIScene) {
         // Called when the scene will move from an active state to an inactive state.
         // This may occur due to temporary interruptions (ex. an incoming phone call).
@@ -48,5 +48,5 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
 
-}
+}//  By: RETBOT
 
