@@ -3,7 +3,7 @@
 //  appSwiftTabBar1
 //
 //  Created by Guest User on 07/12/22.
-//
+////  By: RETBOT
 
 import UIKit
 import SceneKit
@@ -29,7 +29,7 @@ class Vista5VC: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
+    }//  By: RETBOT
     // LUZ
     @IBAction func sliderLuzX(_ sender: UISlider) {
         sliderLuzX.value = sender.value
@@ -57,7 +57,7 @@ class Vista5VC: UIViewController {
     @IBAction func sliderCamaraZ(_ sender: UISlider) {
         sliderCamaraZ.value = sender.value
         seleccFigura()
-    }
+    }//  By: RETBOT
     
     // SEGMENTED
     @IBAction func segmentoLuces(_ sender: UISegmentedControl) {
@@ -94,7 +94,7 @@ class Vista5VC: UIViewController {
         
         seleccFigura()
     }
-    
+    //  By: RETBOT
     func seleccFigura(){
         switch tipoFigura {
         case 0: dibujaCubo()
@@ -145,7 +145,7 @@ class Vista5VC: UIViewController {
         constraint.isGimbalLockEnabled = true
         camaraNodo.constraints = [constraint]
         luzNodo.constraints = [constraint]
-        
+        //  By: RETBOT
         // PARA LAS SOMBRAS Y EL MATERIAL
         // HACER MODIFICACIONES
         let planoGeometria = SCNPlane(width: 50.0, height: 50.0)
@@ -217,7 +217,7 @@ class Vista5VC: UIViewController {
         let cuboNodo = SCNNode(geometry: geometriaCubo)
         
         let constraint = SCNLookAtConstraint(target: cuboNodo)
-        
+        //  By: RETBOT
         constraint.isGimbalLockEnabled = true
         camaraNodo.constraints = [constraint]
         luzNodo.constraints = [constraint]
@@ -255,7 +255,7 @@ class Vista5VC: UIViewController {
         self.imageView.addSubview(sceneView)
         let scene = SCNScene()
         sceneView.scene = scene
-        
+        //  By: RETBOT
         let camara = SCNCamera()
         let camaraNodo = SCNNode()
         camaraNodo.camera = camara
@@ -337,7 +337,7 @@ class Vista5VC: UIViewController {
         // Vista de frente
         //camaraNodo.position = SCNVector3(x: 0.0, y: 0, z: 3.0)
         camaraNodo.position = SCNVector3(x: Float(sliderCamaraX.value), y:Float(sliderCamaraY.value), z:Float(sliderCamaraZ.value))
-        
+        //  By: RETBOT
         let luz = SCNLight()
         //luz.type = SCNLight.LightType.spot
         luz.type = SCNLight.LightType(rawValue: tipoLuz!)
@@ -413,7 +413,7 @@ class Vista5VC: UIViewController {
         let luz = SCNLight()
         //luz.type = SCNLight.LightType.spot
         luz.type = SCNLight.LightType(rawValue: tipoLuz!)
-        
+        //  By: RETBOT
         luz.spotInnerAngle = 30.0 // DEBE SER MODIFICABLE
         luz.spotOuterAngle = 70.0 // DEBE SER MODIFICABLE
         luz.castsShadow = true
@@ -445,7 +445,7 @@ class Vista5VC: UIViewController {
         
         // Modifiar el valor angular de los 3 ejes
         planoNodo.eulerAngles = SCNVector3(x:GLKMathDegreesToRadians(-90), y: 0, z: 0)
-        
+        //  By: RETBOT
         planoNodo.position = SCNVector3(x:0.0, y:-0.5, z:0.0)
         
         // Color cubo
@@ -483,7 +483,7 @@ class Vista5VC: UIViewController {
         let luz = SCNLight()
         //luz.type = SCNLight.LightType.spot
         luz.type = SCNLight.LightType(rawValue: tipoLuz!)
-        
+        //  By: RETBOT
         luz.spotInnerAngle = 30.0 // DEBE SER MODIFICABLE
         luz.spotOuterAngle = 70.0 // DEBE SER MODIFICABLE
         luz.castsShadow = true
@@ -599,7 +599,7 @@ class Vista5VC: UIViewController {
         scene.rootNode.addChildNode(camaraNodo)
         scene.rootNode.addChildNode(cuboNodo)
         scene.rootNode.addChildNode(planoNodo)
-        
+        //  By: RETBOT
     }
 
     /*
