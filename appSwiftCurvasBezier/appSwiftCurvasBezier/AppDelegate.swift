@@ -4,7 +4,7 @@
 //
 //  Created by Usuario invitado on 29/11/22.
 //
-
+//  By: RETBOT
 import UIKit
 
 @main
@@ -33,4 +33,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-
+//  By: RETBOT
